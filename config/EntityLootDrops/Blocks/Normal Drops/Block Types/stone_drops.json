@@ -1,0 +1,18 @@
+{
+  "blockId": "",
+  "itemId": "minecraft:diamond",
+  "dropChance": 0.0,
+  "minAmount": 1,
+  "maxAmount": 1,
+  "requirePlayerBreak": false,
+  "allowDefaultDrops": true,
+  "replaceDefaultDrops": false,
+  "requiredTool": "minecraft:diamond_pickaxe",
+  "requiredToolLevel": 0,
+  "requiredEnchantLevel": 0,
+  "commandChance": 0.0,
+  "comment": "Example diamond drop from stone",
+  "canRegenerate": false,
+  "brokenBlockReplace": "minecraft:bedrock",
+  "respawnTime": 20
+}

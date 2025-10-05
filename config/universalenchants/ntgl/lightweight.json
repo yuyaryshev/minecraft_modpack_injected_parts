@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ntgl_gun"
+  ],
+  "incompatible": [
+    "ntgl:trigger_finger",
+    "ntgl:over_capacity"
+  ]
+}

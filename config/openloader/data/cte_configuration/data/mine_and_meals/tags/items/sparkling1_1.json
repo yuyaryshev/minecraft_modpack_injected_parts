@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "blue_skies:crescent_fruit",
+      "required": false
+    },
+    {
+      "id": "blue_skies:comet_berries",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:coffee_candy",
+      "required": false
+    }
+  ]
+}

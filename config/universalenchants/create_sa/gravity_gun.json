@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "mutantmonsters:endersoul_hand",
+    "mowziesmobs:spear",
+    "mowziesmobs:naga_fang_dagger",
+    "aiotbotania:livingwood_aiot",
+    "aiotbotania:livingrock_aiot",
+    "aiotbotania:manasteel_aiot",
+    "aiotbotania:elementium_aiot",
+    "aiotbotania:terra_aiot",
+    "aiotbotania:alfsteel_aiot",
+    "farmersdelight:skillet",
+    "cuisinedelight:cuisine_skillet"
+  ],
+  "incompatible": []
+}

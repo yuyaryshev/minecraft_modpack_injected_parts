@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "cuisinedelight:fried_meat_and_melon",
+      "required": false
+    },
+      {
+      "id": "blue_skies:comet_berry_pie",
+      "required": false
+    }
+  ]
+}

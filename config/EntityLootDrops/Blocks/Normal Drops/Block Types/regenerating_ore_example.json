@@ -1,0 +1,17 @@
+{
+  "blockId": "",
+  "itemId": "minecraft:diamond",
+  "dropChance": 0.0,
+  "minAmount": 1,
+  "maxAmount": 2,
+  "requirePlayerBreak": false,
+  "allowDefaultDrops": true,
+  "replaceDefaultDrops": false,
+  "requiredToolLevel": 0,
+  "requiredEnchantLevel": 0,
+  "commandChance": 0.0,
+  "comment": "Example of regenerating coal ore that drops diamonds and regenerates after 60 seconds",
+  "canRegenerate": false,
+  "brokenBlockReplace": "minecraft:cobblestone",
+  "respawnTime": 60
+}

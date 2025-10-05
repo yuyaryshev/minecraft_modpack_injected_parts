@@ -1,0 +1,13 @@
+
+#Client configurations. Options for changing display view
+[display_config]
+	#Displays your current balance and gained balance per second in the top left corner
+	"Balance Display" = true
+	#If monetary values should be formatted as M/B/T/etc (Short) instead of Million/Billion/Trillion/etc (Full)
+	"Short mode " = true
+	#Ignore decimal offset specified in language file. This will show all money values as whole numbers.
+	"Ignore decimal offset" = false
+	#Number of *seconds* sampled for showing average balance/second change. Smaller values may display more erratic values.
+	#Range: > 1
+	"Balance Delta" = 5
+

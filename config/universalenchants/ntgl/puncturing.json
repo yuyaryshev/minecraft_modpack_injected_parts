@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ntgl_gun"
+  ],
+  "incompatible": [
+    "ntgl:fire_starter",
+    "ntgl:collateral",
+    "ntgl:accelerator"
+  ]
+}

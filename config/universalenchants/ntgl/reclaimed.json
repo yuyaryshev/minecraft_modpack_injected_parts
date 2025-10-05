@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ntgl_gun"
+  ],
+  "incompatible": [
+    "ntgl:quick_hands"
+  ]
+}

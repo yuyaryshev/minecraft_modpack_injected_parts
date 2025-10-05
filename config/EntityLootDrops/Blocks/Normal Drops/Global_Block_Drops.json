@@ -1,0 +1,38 @@
+[
+  {
+    "itemId": "minecraft:emerald",
+    "dropChance": 0.0,
+    "minAmount": 1,
+    "maxAmount": 3,
+    "requirePlayerBreak": false,
+    "allowDefaultDrops": true,
+    "replaceDefaultDrops": false,
+    "requiredToolLevel": 0,
+    "requiredEnchantLevel": 0,
+    "commandChance": 0.0,
+    "comment": "Simple emerald drop from any block",
+    "canRegenerate": false,
+    "brokenBlockReplace": "minecraft:bedrock",
+    "respawnTime": 20
+  },
+  {
+    "itemId": "minecraft:diamond",
+    "dropChance": 0.0,
+    "minAmount": 1,
+    "maxAmount": 1,
+    "requirePlayerBreak": false,
+    "allowDefaultDrops": true,
+    "replaceDefaultDrops": false,
+    "requiredTool": "minecraft:diamond_pickaxe",
+    "requiredToolTier": "diamond",
+    "requiredToolLevel": 3,
+    "requiredEnchantment": "minecraft:fortune",
+    "requiredEnchantLevel": 3,
+    "command": "particle minecraft:end_rod {block_x} {block_y} {block_z} 0.5 0.5 0.5 0.1 20",
+    "commandChance": 0.0,
+    "comment": "Complex diamond drop with tool requirements and regeneration",
+    "canRegenerate": false,
+    "brokenBlockReplace": "minecraft:bedrock",
+    "respawnTime": 30
+  }
+]

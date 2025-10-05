@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ntgl_semi_auto_gun",
+    "ntgl:pistol10mm",
+    "ntgl:scout10mm",
+    "ntgl:minigun",
+    "ntgl:flamer",
+    "ntgl:gatling"
+  ],
+  "incompatible": [
+    "ntgl:over_capacity",
+    "ntgl:lightweight"
+  ]
+}

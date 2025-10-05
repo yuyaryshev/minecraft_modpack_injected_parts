@@ -1,0 +1,18 @@
+{
+  "drop_chance_enable": "§6[Events] §aIncreased drop chance event is now active!",
+  "enable": {
+    "Easter": "§6[Events] §d[EASTER] Easter event has been enabled!",
+    "Winter": "§6[Events] §b[WINTER] Winter event has been enabled!",
+    "Summer": "§6[Events] §e[SUMMER] Summer event has been enabled!",
+    "Halloween": "§6[Events] §c[HALLOWEEN] Halloween event has been enabled!"
+  },
+  "disable": {
+    "Easter": "§6[Events] §7[EASTER] Easter event has been disabled!",
+    "Winter": "§6[Events] §7[WINTER] Winter event has been disabled!",
+    "Summer": "§6[Events] §7[SUMMER] Summer event has been disabled!",
+    "Halloween": "§6[Events] §7[HALLOWEEN] Halloween event has been disabled!"
+  },
+  "double_drops_enable": "§6[Events] §aDouble drops event is now active!",
+  "double_drops_disable": "§6[Events] §cDouble drops event has been disabled!",
+  "drop_chance_disable": "§6[Events] §cIncreased drop chance event has been disabled!"
+}

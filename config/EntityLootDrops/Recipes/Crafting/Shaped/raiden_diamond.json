@@ -1,0 +1,19 @@
+[{
+  "name": "raiden_diamond",
+  "type": "shaped",
+  "outputItem": "minecraft:diamond",
+  "outputCount": 1,
+  "outputNbt": "{display:{Name:'{\"text\":\"Raiden Diamond\",\"color\":\"light_purple\"}'}}",
+  "pattern": [
+    "XXX",
+    "XDX",
+    "XXX"
+  ],
+  "key": {
+    "D": {"item": "minecraft:pink_dye"},
+    "X": {"item": "minecraft:diamond"}
+  },
+  "group": "item",
+  "enabled": true,
+  "_comment": "raiden diamond"
+}]

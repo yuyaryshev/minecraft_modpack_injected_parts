@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:ntgl_gun"
+  ],
+  "incompatible": [
+    "ntgl:puncturing",
+    "ntgl:collateral",
+    "ntgl:accelerator"
+  ]
+}

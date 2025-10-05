@@ -1,0 +1,28 @@
+[
+  {
+    "name": "enchanted_diamond_sword",
+    "type": "shaped",
+    "enabled": false,
+    "replaceRecipe": "minecraft:diamond_sword",
+    "_comment": "enchanted diamond sword replacement - example recipe",
+    "group": "weapons",
+    "outputItem": "minecraft:diamond_sword",
+    "outputCount": 1,
+    "outputNbt": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5}]}",
+    "pattern": [
+      " D ",
+      " D ",
+      " S "
+    ],
+    "key": {
+      "S": "minecraft:stick",
+      "D": "minecraft:diamond"
+    },
+    "experience": 0.1,
+    "cookingTime": 200,
+    "craftCommands": [
+      "tellraw @a {\"text\":\"Someone crafted an enchanted diamond sword!\",\"color\":\"gold\"}"
+    ],
+    "commandChance": 100.0
+  }
+]
