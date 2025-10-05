@@ -8,6 +8,7 @@ const meltingRecipeType = useTConstuct?"tconstruct:melting":"createmetallurgy:me
 
 const materials = [
 	{
+		mainMetal: true,
 		n: "iron",
         raw: "minecraft:raw_iron",
 		nugget: "minecraft:iron_nugget",
@@ -17,8 +18,10 @@ const materials = [
         metalDust:"createmetallurgy:iron_dust",
         dirtyCompanions:["minecraft:redstone"],
 		fluid: moltenModPrefix+"molten_iron",
+		complementBlock:'create:crimsite',
 	},
 	{
+		mainMetal: true,
 		n: "copper",
         raw: "minecraft:raw_copper",
 		nugget: "create:copper_nugget",
@@ -28,8 +31,10 @@ const materials = [
         metalDust:"createmetallurgy:copper_dust",
         dirtyCompanions:["minecraft:clay"],
 		fluid: moltenModPrefix+"molten_copper",
+		complementBlock:'create:veridium',
 	},
 	{
+		mainMetal: true,
 		n: "zinc",
         raw: "create:raw_zinc",
 		nugget: "create:zinc_nugget",
@@ -39,8 +44,10 @@ const materials = [
         metalDust:"createmetallurgy:zinc_dust",
         dirtyCompanions:["minecraft:gunpowder"],
 		fluid: moltenModPrefix+"molten_zinc",
+		complementBlock:'create:asurine',
 	},
 	{
+		mainMetal: true,
 		n: "gold",
         raw: "minecraft:raw_gold",
 		nugget: "minecraft:gold_nugget",
@@ -50,6 +57,7 @@ const materials = [
         metalDust:"createmetallurgy:gold_dust",
         dirtyCompanions:["minecraft:quartz"],
 		fluid: moltenModPrefix+"molten_gold",
+		complementBlock:'create:ochrum',
 	},
 	{
 		n: "redstone",
@@ -262,17 +270,45 @@ ServerEvents.recipes(event => {
 //});
 
 
+
+const oreBlocks = [
+	`deeperdarker:gloomslate_iron_ore`,
+	`deeperdarker:sculk_stone_iron_ore`,
+	`minecraft:deepslate_iron_ore`,
+	`projectvibrantjourneys:ferrous_gravel`,
+	`minecraft:iron_ore`,
+];
+
+let blk;
+
 LootJS.modifiers((event) => {
-    event
-        .addBlockLootModifier("minecraft:iron_ore")
-		.removeLoot(ItemFilter.ALWAYS_TRUE)
-        .addWeightedLoot(
-            [20, 40],
-            [
-				Item.of('yyitems:poor_raw_iron').withChance(99.5), 
-				Item.of("minecraft:raw_iron").withChance(0.1), 
-				Item.of("yyitems:raw_iron_nugget").withChance(0.4)]
-        );
+	for(let m of materials.filter(m=>m.mainMetal)){
+		for(let b0 of oreBlocks){
+			blk=b0.split('iron').join(m.n);
+			event
+				.addBlockLootModifier(blk)
+				.removeLoot(ItemFilter.ALWAYS_TRUE)
+				.addWeightedLoot(
+					[20, 40],
+					[
+						Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
+						Item.of(`minecraft:raw_${m.n}`).withChance(0.1), 
+						Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
+				);
+		}
+
+		event
+			.addBlockLootModifier(m.complementBlock)
+			.removeLoot(ItemFilter.ALWAYS_TRUE)
+			.addWeightedLoot(
+				[20, 40],
+				[
+					Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
+					Item.of(`minecraft:raw_${m.n}`).withChance(0.1), 
+					Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
+			);
+	}
+	
 });
 
 //ServerEvents.modifyBlockLootTables(event => {
