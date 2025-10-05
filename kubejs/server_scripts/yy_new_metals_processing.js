@@ -120,9 +120,34 @@ if(useOccultism) {
 	});
 }
 
-ServerEvents.recipes(event => {	
-	
-	//event.replaceOutput(
+ServerEvents.recipes(event => {
+    // cleaning_dust
+    event.recipes.create.mixing(
+        ["4x yyitems:cleaning_dust"],
+        ["ceramics:unfired_porcelain", '#minecraft:coals']
+    )
+        .processingTime(600);
+
+    // adv_cleaning_dust
+    event.recipes.create.mixing(
+        ["4x yyitems:adv_cleaning_dust"],
+        ["yyitems:cleaning_dust", 'minecraft:redstone', 'yyitems:diamond_dust']
+    )
+        .heated()
+        .processingTime(1200);
+
+    // inpure_netherite_dust
+    event.recipes.create.mixing(
+        ["yyitems:inpure_netherite_dust"],
+        ["yyitems:adv_cleaning_dust", "minecraft:netherite_scrap" ]
+    )
+        .heated()
+        .processingTime(400);
+
+    // netherite_ingot
+    event.blasting("minecraft:netherite_ingot", "yyitems:inpure_netherite_dust");
+
+    //event.replaceOutput(
 	//	{ 
 	//		type: 'minecraft:smelting',			
 	//		output: 'minecraft:iron_ingot',
