@@ -90,7 +90,7 @@ const materials = [
 	},
 	{
 		n: "diamond",
-		inpureDust: "yyitems:inpure_diamond_dust",
+		inpureDust: "yyinfiniteoreveins:inpure_diamond_dust",
 		washingResults: [
 			{ n: "minecraft:sand", p: 0.8 },
 			{ n: "minecraft:gravel", p: 0.1 },
@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
         } else {
             event.recipes.create.splashing(
 				m.washingResults.map((it) => (Item.of(it.n).withChance(it.p))),
-				{ item: `yyitems:inpure_${m.n}_dust` }
+				{ item: m.inpureDust }
 			);
 
             for (let it of m.washingResults) {
@@ -431,7 +431,7 @@ LootJS.modifiers((event) => {
 					[20, 40],
 					[
 						Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
-						Item.of(`minecraft:raw_${m.n}`).withChance(0.1), 
+						Item.of(m.raw).withChance(0.1), 
 						Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
 				);
 		}
@@ -443,7 +443,7 @@ LootJS.modifiers((event) => {
 				[20, 40],
 				[
 					Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
-					Item.of(`minecraft:raw_${m.n}`).withChance(0.1), 
+					Item.of(m.raw).withChance(0.1), 
 					Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
 			);
 	}
