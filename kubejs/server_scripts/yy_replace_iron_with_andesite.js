@@ -201,10 +201,19 @@ ServerEvents.recipes(event => {
 		'minecraft:iron_block',  
 		'create:andesite_alloy'
 	);
-	
 
-  // List of recipes to modify
+
+    event.replaceInput(
+        { id: 'create_connected:overstress_clutch'},
+        'create:electron_tube',
+        'create:large_cogwheel'
+    );
+
+
+    // List of recipes to modify
   const recipesToReplace = [
+    'cookingforblockheads:tool_rack',
+    'create:metal_bracket',
     'create_connected:overstress_clutch',         
     'create_connected:centrifugal_clutch',        
     'create_connected:freewheel_clutch',           
