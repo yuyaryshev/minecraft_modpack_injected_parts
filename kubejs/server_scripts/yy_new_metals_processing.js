@@ -178,7 +178,7 @@ ServerEvents.recipes(event => {
 		if(m.cant_be_smelted_from_ore_block) {
 			let output = m.ingot || m.cant_be_smelted_from_ore_block;
 			event.forEachRecipe({ output: output }, recipe => {
-				if(recipe.id.endsWith("_ore")) {
+				if(recipe.id.toString().endsWith("_ore")) {
 					recipe.remove();
 				}
 			})
