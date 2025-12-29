@@ -1,0 +1,395 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_iv"
+	group: "7956952FC91F85FE"
+	icon: "create_new_age:electrical_connector"
+	id: "178E3017AA708F39"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15A6B954C355AFBF"
+			tasks: [{
+				id: "7CFBE513AC7FF28E"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "1946A17D6F14BF56"
+			tasks: [{
+				count: 15L
+				id: "5FEA980F1E418253"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "55B6833F6CD1A6B7"
+			tasks: [{
+				id: "29DAAEB0A2070C61"
+				item: "create_new_age:reactor_heat_vent"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "73027CF56CF0C2D4"
+			tasks: [{
+				id: "16803EB9455F982F"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "49374DCD2DB91866"
+			tasks: [{
+				count: 12L
+				id: "1189474290EF5F18"
+				item: { Count: 12, id: "create_new_age:layered_magnet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "0C62438F54293C4F"
+			tasks: [{
+				id: "32ABF6CF4BA08E80"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "668AABA952DEB668"
+			tasks: [{
+				id: "158443EE673002EC"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			id: "7FA6F412C7624256"
+			tasks: [{
+				id: "42248D27946B808D"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "05F86DC292BECD4D"
+			tasks: [{
+				id: "347C1671D45DF3E7"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			id: "27768E3FBB4A6C12"
+			tasks: [{
+				count: 32L
+				id: "16448BD9F6F2ABB5"
+				item: { Count: 32, id: "create_new_age:thorium" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			id: "2509583274CBD0E6"
+			tasks: [{
+				id: "7D696A1A90C995B6"
+				item: "create_new_age:overcharged_iron"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "543974D1FD800767"
+			tasks: [{
+				id: "35719B1087BC01DA"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5513520183C75820"]
+			id: "77BDC4BFB7EFEDC8"
+			tasks: [{
+				id: "2E3EC256FDDD0845"
+				item: "create_new_age_accumulators:nickel_cadmium_accumulator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"13DED9F963FE02C2"
+				"4D6554A9F6C21A3C"
+			]
+			dependency_requirement: "one_completed"
+			id: "5513520183C75820"
+			tasks: [{
+				id: "59B85E54ABC1C1F9"
+				item: "create_new_age_accumulators:nickel_dust"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			id: "4D6554A9F6C21A3C"
+			tasks: [{
+				id: "30BD831CB75FC0C4"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			id: "13DED9F963FE02C2"
+			tasks: [{
+				id: "3E4F15ED5959D936"
+				item: "yyitems:raw_copper_nugget"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["21E0D9D62DF52966"]
+			id: "7F4F0D73161FE792"
+			tasks: [{
+				id: "73F6DFA67D23B84E"
+				item: "create_new_age_accumulators:lithium_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F4F0D73161FE792"]
+			id: "26F0C4EF986FA542"
+			tasks: [{
+				id: "21EF0840926CBCC7"
+				item: "create_new_age_accumulators:lithium_ion_accumulator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.5d
+		}
+		{
+			id: "21E0D9D62DF52966"
+			tasks: [{
+				id: "194D07A88D7201FB"
+				item: "create_new_age_accumulators:lithium_ore"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			id: "492BC1F0E6D6361F"
+			tasks: [{
+				id: "06645E740F0CF331"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "5848E4CB833444EE"
+			tasks: [{
+				id: "7DE81FCACC82BDD7"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			id: "118D05034F06CA13"
+			tasks: [{
+				id: "77BEBC26546F095E"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "2143AB8B8B9A8AEF"
+			tasks: [{
+				id: "331DC16FE393B9A7"
+				item: "createnuclear:reactor_frame"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "63FE6B5C459D4700"
+			tasks: [{
+				id: "787081639CF5EBE3"
+				item: "createnuclear:reactor_core"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "54A589040E959D37"
+			tasks: [{
+				id: "4FCE92D4494E6943"
+				item: "createnuclear:reactor_cooler"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "73D67C4B19AE307E"
+			tasks: [{
+				id: "6CBD5F57ECB7375F"
+				item: "createnuclear:reactor_output"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.5d
+		}
+		{
+			id: "693A316308600422"
+			tasks: [{
+				id: "5F1AC4E2E333B41A"
+				item: "createnuclear:reactor_blueprint_item"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			id: "0D354BE5AEFD6919"
+			tasks: [{
+				id: "45203BDF66F8F05A"
+				item: "createnuclear:raw_uranium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "1DC81D90CD0AF416"
+			tasks: [{
+				id: "3B566A8FDB6BE9B5"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "6BC5E6B2A9EB4309"
+			tasks: [{
+				id: "6E16620BE8188544"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "754B597437C4D3E8"
+			tasks: [{
+				id: "4B422ABB23BC751D"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "2E0F91AA5C9F8DF8"
+			tasks: [{
+				id: "7898157255B982EF"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "1B6038091608BD7B"
+			tasks: [{
+				id: "7D289F9C589E1455"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "5E56356DD85A7190"
+			tasks: [{
+				id: "6ABD43521B75A2FB"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "792EF27358E57018"
+			tasks: [{
+				id: "6EA82F371D5E730A"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "5A6110461534A008"
+			tasks: [{
+				id: "424F581DB9709FF8"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "5754BE78A0B6F324"
+			tasks: [{
+				id: "7C9DC904DA227125"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+	]
+	title: "Create 3 - Электричество"
+}

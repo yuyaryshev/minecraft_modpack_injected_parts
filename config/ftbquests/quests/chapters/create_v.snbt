@@ -1,0 +1,103 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_v"
+	group: "7956952FC91F85FE"
+	icon: "create:schematicannon"
+	id: "48407511220C7EC1"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5D6BAE872C4B45AD"
+				"6CD18FE4BF20FFD1"
+			]
+			id: "70D2CFD819D375E2"
+			tasks: [{
+				count: 64L
+				id: "62B64B2FC3FC212C"
+				item: { Count: 64, id: "yyitems:diamond_unipack" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3DBC4D1BDDF881AA"
+				"00E01461B06FA00F"
+			]
+			description: ["Это будет не просто..."]
+			id: "5D6BAE872C4B45AD"
+			tasks: [{
+				count: 200L
+				id: "4CADD5968A535D9D"
+				item: { Count: 200, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "6CD18FE4BF20FFD1"
+			tasks: [{
+				count: 64L
+				id: "523F15B1500EC231"
+				item: { Count: 64, id: "yyitems:brass_machinery_unipack" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			id: "00E01461B06FA00F"
+			tasks: [{
+				icon: "yyinfiniteoreveins:diamond_cloudite"
+				id: "34FB31A334BA52BE"
+				observe_type: 0
+				timer: 0L
+				title: "Cloudite"
+				to_observe: "yyinfiniteoreveins:cloudite"
+				type: "observation"
+			}]
+			title: "Алмазное облако?!"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4C075C5E18EF2AE6"]
+			id: "3DBC4D1BDDF881AA"
+			tasks: [{
+				id: "7CF6887E232C5984"
+				item: "createbigcannons:cannon_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "4C075C5E18EF2AE6"
+			tasks: [{
+				id: "73B8B9EDCD3CE0B8"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70D2CFD819D375E2"]
+			id: "71030C7DF9318292"
+			tasks: [{
+				id: "52BA62B8EF618FCF"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+	]
+	title: "Create 5 - Алмазы и пушки"
+}

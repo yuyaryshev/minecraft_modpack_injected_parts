@@ -61,43 +61,43 @@
 	[world.wild_cabbages]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 30
+		chance = 300
 
 	#Sea Beet generation
 	[world.wild_beetroots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 30
+		chance = 300
 
 	#Wild Potato generation
 	[world.wild_potatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 100
+		chance = 1000
 
 	#Wild Carrot generation
 	[world.wild_carrots]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 120
+		chance = 1200
 
 	#Wild Onion generation
 	[world.wild_onions]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 120
+		chance = 1200
 
 	#Tomato Vines generation
 	[world.wild_tomatoes]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 100
+		chance = 1000
 
 	#Wild Rice generation
 	[world.wild_rice]
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 20
+		chance = 200
 
 	#Brown Mushroom Colony generation
 	[world.brown_mushroom_colonies]
@@ -105,7 +105,7 @@
 		genBrownMushroomColony = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 15
+		chance = 150
 
 	#Red Mushroom Colony generation
 	[world.red_mushroom_colonies]
@@ -113,5 +113,5 @@
 		genRedMushroomColony = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
-		chance = 15
+		chance = 150
 

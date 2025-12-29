@@ -163,7 +163,13 @@
 				}
 				{
 					id: "62167E5B16566363"
-					item: "minecraft:water_bucket"
+					item: {
+						Count: 1
+						id: "minecraft:water_bucket"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 			]
@@ -1069,7 +1075,13 @@
 				}
 				{
 					id: "589F49ED4647E9A7"
-					item: "minecraft:lava_bucket"
+					item: {
+						Count: 1
+						id: "minecraft:lava_bucket"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{

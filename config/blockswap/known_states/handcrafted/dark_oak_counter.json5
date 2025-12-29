@@ -1,0 +1,2273 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "acacia_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "andesite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "bamboo_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "birch_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "blackstone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "bricks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "calcite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "cherry_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "crimson_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "dark_oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "deepslate"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "diorite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "dripstone_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "granite"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "jungle_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "mangrove_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "oak_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "quartz_block"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "smooth_stone"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "spruce_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "north",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "north",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "north",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "south",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "south",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "south",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "west",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "west",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "west",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "1",
+			"facing": "east",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "2",
+			"facing": "east",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"type": "3",
+			"facing": "east",
+			"counter": "warped_planks"
+		},
+		"Name": "handcrafted:dark_oak_counter"
+	}
+]

@@ -1,0 +1,329 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "down"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "down"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "down"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "down"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "down"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "true",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "up"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "true",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "north"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "true",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "south"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "true",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "west"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "true",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "true",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "true",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "public",
+			"static": "false",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "private",
+			"static": "false",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "team",
+			"static": "false",
+			"facing": "east"
+		},
+		"Name": "enderchests:ender_chest"
+	}
+]

@@ -1,0 +1,658 @@
+{
+	autofocus_id: "503AEBB95FF5435C"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_i__first_automation"
+	group: "7956952FC91F85FE"
+	icon: "yy_mechanical_workbench:mechanical_workbench"
+	id: "104E4FEE64DEA2DE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Я вообще ожидал другого..."
+				"Думал скрафтить кирку, но что не так с этим столом? "
+				"Почему он не крафтится?..."
+				""
+				"Может стоит нажать \"+\" ?... "
+				"Нет?... Но вот какая-то полоска заполнилась."
+				"Может нужно нажать раз 20?"
+				""
+				"Скрафтилось!"
+				""
+				"Ой... что-то я очень голоден..."
+				""
+				"... ... .."
+				""
+				"Как бы не тратить столько сил - может автоматизация поможет? "
+				"Хотя бы ручкой крутить."
+			]
+			id: "56D7811502630A46"
+			tasks: [{
+				icon: "yy_mechanical_workbench:mechanical_workbench"
+				id: "63C0F7822079A02E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "yy_mechanical_workbench:mechanical_workbench"
+				type: "observation"
+			}]
+			title: "Странный крафтовый стол"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["56D7811502630A46"]
+			description: ["Может быть ручкой крутить будет легче, чем нажимать на кнопку?"]
+			id: "010490C5450A3D96"
+			tasks: [{
+				id: "6DFF060EA8E1A4F0"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"56D7811502630A46"
+				"1CE9A6B3662B8AB7"
+				"010490C5450A3D96"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"От-ку-да по-лу-чи-ть э-не-р-ги-ю?"
+				"И ка-к пе-ре-да-ть ее?"
+			]
+			hide_dependency_lines: false
+			id: "72E02F60A47FB76B"
+			tasks: [{
+				id: "145A2A5E5419720F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72E02F60A47FB76B"]
+			hide_dependency_lines: false
+			id: "47F78BD794091128"
+			tasks: [{
+				id: "4BABD919D2916224"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47F78BD794091128"]
+			id: "3F06763C479477AB"
+			tasks: [{
+				id: "3525FC8E30DA17E6"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67A020DD320B346E"]
+			id: "03FE5CEDAD45BABF"
+			tasks: [{
+				id: "0A5A05AC505EDB6F"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			id: "67A020DD320B346E"
+			tasks: [{
+				id: "0C197D69B6FDC251"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5368CC583CF0B4BF"
+				"47F78BD794091128"
+			]
+			id: "0143C7ED08576F9E"
+			tasks: [{
+				id: "531EF12E681F043A"
+				item: "create_connected:encased_chain_cogwheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72E02F60A47FB76B"]
+			id: "5368CC583CF0B4BF"
+			tasks: [{
+				id: "1793696C50EB7B81"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["03FE5CEDAD45BABF"]
+			id: "497802D74608716F"
+			tasks: [{
+				id: "49993513D69F01C0"
+				item: "createtransmission:transmission_chain"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["357A0569504D616A"]
+			id: "503AEBB95FF5435C"
+			tasks: [{
+				id: "7DC10B8C7CD095CD"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72E02F60A47FB76B"]
+			description: ["Во-д-но-е ко-ле-со"]
+			id: "357A0569504D616A"
+			tasks: [{
+				id: "3E14F197AE819CFC"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72E02F60A47FB76B"]
+			description: ["Ве-т-ря-на-я ме-ль-ни-ца"]
+			id: "01CBDF833EC93EC7"
+			tasks: [{
+				id: "1488861ACC9DD236"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F2E9055B5B0BF21"]
+			description: ["Чтобы отключать воду потребуется поршень..."]
+			id: "0ABAAE57F76D11ED"
+			tasks: [{
+				id: "6F978003A522F5A1"
+				item: "minecraft:sticky_piston"
+				type: "item"
+			}]
+			title: "Поршень - как отключить воду?"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "7EFF6195AA23F6FA"
+			tasks: [{
+				id: "7A46E37618A8E464"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"37AB46A6D3DD9790"
+				"491EEB6032A6FDB2"
+				"4956AEE2E2EB50C1"
+				"41869FC17A7F1026"
+				"3C64D1A08128146F"
+			]
+			dependency_requirement: "one_started"
+			id: "1CE9A6B3662B8AB7"
+			tasks: [{
+				id: "224B442324CE9419"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "3C64D1A08128146F"
+			tasks: [{
+				id: "4283A01EC10C82B8"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "37AB46A6D3DD9790"
+			tasks: [{
+				id: "70A634AFB8B59320"
+				item: "yyitems:raw_andesite_alloy_powder"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "491EEB6032A6FDB2"
+			tasks: [{
+				id: "3F46F2FB6A2A8263"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "4956AEE2E2EB50C1"
+			tasks: [{
+				id: "2C3CAFE18406945E"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "41869FC17A7F1026"
+			tasks: [{
+				id: "3FD102D873E67356"
+				item: "create:zinc_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "0B46D5E6B5B9A9BA"
+			tasks: [{
+				id: "4AA0BA1F14B272C2"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			id: "075517470356BC59"
+			tasks: [{
+				id: "44DA1C0E4EBA6305"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"47F78BD794091128"
+				"6F288DE403923BD1"
+			]
+			description: [
+				"Ло-ша-дь мо-же-т к-ру-ти-ть?"
+				"А корова?"
+			]
+			id: "3890877B68FAFC75"
+			tasks: [{
+				id: "029412F3337400C5"
+				item: "createhorsepower:horse_crank"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			id: "6F288DE403923BD1"
+			tasks: [{
+				id: "266BF0E80736BB2F"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47F78BD794091128"]
+			id: "065AEB2501E257EE"
+			tasks: [{
+				id: "454451B04B442540"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["065AEB2501E257EE"]
+			id: "31140AD48793E445"
+			tasks: [{
+				id: "535FABF643A8045F"
+				item: "create_connected:parallel_gearbox"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["065AEB2501E257EE"]
+			id: "794856229F9BEFC9"
+			tasks: [{
+				id: "6DB43A8674148218"
+				item: "create_connected:six_way_gearbox"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "61697DB0D265DB1E"
+			tasks: [{
+				id: "6E7E1CE4B0660E8D"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B424650D217CDDB"]
+			id: "55232CDC46806DB6"
+			tasks: [{
+				id: "29BC88F4D440ADAC"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F2E9055B5B0BF21"]
+			id: "2DC54F2CCB0FD1E5"
+			tasks: [{
+				id: "6EB8D43DBAA293C5"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			id: "3F2E9055B5B0BF21"
+			tasks: [{
+				id: "7A6F0D25A26ECA7D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:slimeballs"
+					}
+				}
+				type: "item"
+			}]
+			title: "Slime balls"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1B424650D217CDDB"]
+			id: "04770E328C1EC14A"
+			tasks: [{
+				id: "794C5EF61C2F3CBA"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"357A0569504D616A"
+				"01CBDF833EC93EC7"
+				"3890877B68FAFC75"
+				"503AEBB95FF5435C"
+			]
+			description: ["Нужна энергия"]
+			icon: "mcwlights:oak_ceiling_fan_light"
+			id: "1B424650D217CDDB"
+			title: "Энергия"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B424650D217CDDB"]
+			id: "3236055FC91C2B66"
+			tasks: [{
+				id: "77E909BE3BE9E602"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03FE5CEDAD45BABF"]
+			id: "1CD72D1B9FE39954"
+			tasks: [{
+				id: "7C2FFDF878B14BEC"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1B424650D217CDDB"]
+			id: "40F3A35168BAFD08"
+			tasks: [{
+				id: "0001894E244B7E4C"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1B424650D217CDDB"]
+			id: "5B72DF531B878E9D"
+			tasks: [{
+				id: "70275089C8FA4205"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Нет слайма?"
+				"Эти блоки соединяются без клея"
+			]
+			id: "0C94B7FE020AE3B2"
+			tasks: [{
+				id: "6F671692FF805BFA"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "2EE01E09159CED6B"
+			tasks: [{
+				id: "4FEE87A81CB843DA"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			id: "6B0D9B0C1FDCCFA5"
+			tasks: [{
+				id: "32E1019844288FA9"
+				item: "createmetallurgy:faucet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 12.0d
+		}
+		{
+			id: "5AE3B7D2DB84814B"
+			tasks: [{
+				id: "7FBEEE401B05F40B"
+				item: "ceramics:terracotta_faucet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "40FAD28A4DCDF06D"
+			tasks: [{
+				id: "165E4F2C636B675D"
+				item: "flopper:flopper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			id: "6A483D4DC6A6863A"
+			tasks: [{
+				id: "7AAE6DE21247B19D"
+				item: "woodenhopper:wooden_hopper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "6D3EAE45C9A528D7"
+			tasks: [{
+				id: "3D82FC8637C41E42"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			id: "5EE54011CA55E239"
+			tasks: [{
+				id: "138D14B90975F6D3"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			id: "5C154CA1DBF6A423"
+			tasks: [{
+				id: "15396AE5EAE7A6FE"
+				item: "ceramics:terracotta_cistern"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			description: ["Удобный способ перемещать воду"]
+			id: "7A2685D0BBBF46C6"
+			tasks: [{
+				id: "46C9E0F1478907A3"
+				item: "ceramics:terracotta_channel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.5d
+		}
+		{
+			id: "782938FC0DE7263E"
+			tasks: [{
+				id: "1140658FC0F62E5D"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			id: "07173ACD609D9C0B"
+			tasks: [{
+				id: "51F73D3B24BCF438"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			id: "09039322535101BE"
+			tasks: [{
+				id: "55ED8364BD999B5B"
+				item: {
+					Count: 1
+					id: "woodenbucket:wooden_bucket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			id: "476C303D93C81804"
+			tasks: [{
+				id: "7D3587F2BDF05AD9"
+				item: "ceramics:empty_clay_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			id: "69DB5A6ADAE903DD"
+			tasks: [{
+				id: "73FDCE106B6B5EEA"
+				item: "copper_bucket_mod:copper_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+	]
+	title: "Create 1 - Первые автоматизации"
+}

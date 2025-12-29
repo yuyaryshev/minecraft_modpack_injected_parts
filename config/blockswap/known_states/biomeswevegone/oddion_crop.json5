@@ -1,0 +1,797 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "true",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "false",
+			"age": "0"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "true",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "false",
+			"age": "1"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "true",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "false",
+			"age": "2"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "true",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "0",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "1",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "2",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "3",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "4",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "5",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "6",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "7",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "8",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "9",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"timer": "10",
+			"hatching": "false",
+			"age": "3"
+		},
+		"Name": "biomeswevegone:oddion_crop"
+	}
+]

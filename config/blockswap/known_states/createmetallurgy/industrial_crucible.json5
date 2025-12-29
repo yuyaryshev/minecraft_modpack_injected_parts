@@ -1,0 +1,804 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "plain",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "plain",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "plain",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "inner",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "inner",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "inner",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "inner",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "nw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "nw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "nw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "nw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "sw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "sw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "sw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "sw",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "ne",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "ne",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "ne",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "ne",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "se",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "se",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "se",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "se",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "north",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "north",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "north",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "north",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "south",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "south",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "south",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "south",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "west",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "west",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "west",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "west",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "east",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "east",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "east",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "east",
+			"bottom": "true"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "plain",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "plain",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "plain",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "plain",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "inner",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "inner",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "inner",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "inner",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "nw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "nw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "nw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "nw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "sw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "sw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "sw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "sw",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "ne",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "ne",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "ne",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "ne",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "se",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "se",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "se",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "se",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "north",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "north",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "north",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "north",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "south",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "south",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "south",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "south",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "west",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "west",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "west",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "west",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "true",
+			"shape": "east",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "true",
+			"shape": "east",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "true",
+			"top": "false",
+			"shape": "east",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"window": "false",
+			"top": "false",
+			"shape": "east",
+			"bottom": "false"
+		},
+		"Name": "createmetallurgy:industrial_crucible"
+	}
+]

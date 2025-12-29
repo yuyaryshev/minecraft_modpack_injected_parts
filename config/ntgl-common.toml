@@ -56,22 +56,6 @@
 		#Any mobs of defined will not aggro on shooters
 		exemptMobs = []
 
-	#Properties relating to missiles
-	[common.missiles]
-		#If enabled, allows block removal on explosions
-		enableBlockRemoval = false
-		#The max distance which the explosion is effective to
-		#Range: 0.0 ~ 1.7976931348623157E308
-		explosionRadius = 5.0
-
-	#Properties relating to grenades
-	[common.grenades]
-		#If enabled, allows block removal on explosions
-		enableBlockRemoval = false
-		#The max distance which the explosion is effective to
-		#Range: 0.0 ~ 1.7976931348623157E308
-		explosionRadius = 5.0
-
 	#Properties relating to stun grenades
 	[common.stun_grenades]
 

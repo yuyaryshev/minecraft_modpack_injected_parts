@@ -1,0 +1,4901 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "none"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "white"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "orange"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "magenta"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "light_blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "yellow"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "lime"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "pink"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "light_gray"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "cyan"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "purple"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "blue"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "brown"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "green"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "red"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "single",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "single",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_south_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_south_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_west_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_west_center",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_east_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_east_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_west_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_west_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_east_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_east_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_west_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_west_corner",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "north_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "north_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "east_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "east_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "south_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "south_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "west_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "west_side",
+			"color": "black"
+		},
+		"Name": "handcrafted:acacia_table"
+	}
+]

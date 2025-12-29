@@ -1,0 +1,1587 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "floor"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "wall"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "north",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "south",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "west",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "normal",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "normal",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thicc",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "1",
+			"trim": "thin",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"type": "2",
+			"trim": "thin",
+			"facing": "east",
+			"face": "ceiling"
+		},
+		"Name": "handcrafted:granite_pillar_trim"
+	}
+]

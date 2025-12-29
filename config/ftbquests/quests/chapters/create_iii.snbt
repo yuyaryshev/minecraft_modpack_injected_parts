@@ -1,0 +1,268 @@
+{
+	autofocus_id: "5A324F54FCED68A4"
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_iii"
+	group: "7956952FC91F85FE"
+	icon: "yyitems:brass_machinery_unipack"
+	id: "40F41F0F6C253DE5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"500CAAFB348269FD"
+				"0C7F29CC6CA5A73F"
+				"5C361F6143F7E4C1"
+				"6B7DA162977E83F6"
+			]
+			id: "5A324F54FCED68A4"
+			tasks: [{
+				count: 64L
+				id: "0DE86F7EE241084A"
+				item: { Count: 64, id: "yyitems:brass_machinery_unipack" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B7DA162977E83F6"]
+			id: "5C361F6143F7E4C1"
+			tasks: [{
+				count: 20L
+				id: "1B4A508DCF37CC5D"
+				item: { Count: 64, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6B7DA162977E83F6"
+				"625C3E8BE09157F2"
+			]
+			id: "0C7F29CC6CA5A73F"
+			tasks: [{
+				count: 20L
+				id: "0A18215C9BAE3B29"
+				item: { Count: 20, id: "create:brass_funnel" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "500CAAFB348269FD"
+			tasks: [{
+				count: 64L
+				id: "06755A4E768A3692"
+				item: { Count: 64, id: "yyitems:copper_machinery_unipack" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"26FA89980013E1AC"
+				"21AC4C7A6398A71E"
+				"6E8A068442CEBEBE"
+				"6907F2B93511154A"
+			]
+			dependency_requirement: "one_completed"
+			id: "6B7DA162977E83F6"
+			tasks: [{
+				count: 200L
+				id: "7523CD5AE7918B11"
+				item: { Count: 200, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			id: "26FA89980013E1AC"
+			tasks: [{
+				id: "4451C1FF663B6F04"
+				item: "createmetallurgy:foundry_mixer"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7F8775239CC33F18"]
+			id: "625C3E8BE09157F2"
+			tasks: [{
+				count: 30L
+				id: "3136E932405FAB08"
+				item: { Count: 30, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2AB041690610EA15"
+				"30192CFF38231F0D"
+			]
+			dependency_requirement: "one_completed"
+			id: "7F8775239CC33F18"
+			tasks: [{
+				id: "2FAC385744B0831D"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			id: "2AB041690610EA15"
+			tasks: [{
+				id: "3D46F6174B1368D8"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "0199586D12467ABC"
+			tasks: [{
+				id: "6CC10F1713174B10"
+				item: "crystallized:conductive_compound"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0199586D12467ABC"
+				"2998DA6B8611BCA8"
+			]
+			id: "30192CFF38231F0D"
+			tasks: [{
+				id: "6439280EBFF70F8D"
+				item: "crystallized:conductive_filled"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			id: "2998DA6B8611BCA8"
+			tasks: [{
+				id: "26FA23D3F4B40514"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["517051DCA346B595"]
+			id: "6907F2B93511154A"
+			tasks: [{
+				id: "4E0D38CB33E34794"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			id: "6E8A068442CEBEBE"
+			tasks: [{
+				id: "6287C65EE720EA80"
+				item: "moreburners:electric_burner"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			id: "21AC4C7A6398A71E"
+			tasks: [{
+				id: "3319BEEA317A143C"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			id: "517051DCA346B595"
+			tasks: [{
+				icon: "ftb_ph:blaze"
+				id: "3D1439B26A53CD0C"
+				observe_type: 5
+				timer: 0L
+				title: "Blaze"
+				to_observe: "minecraft:blaze"
+				type: "observation"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			id: "0BB0E9FB7D3BE21C"
+			tasks: [{
+				id: "190A22BEB068E593"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "2BE9E3017D28BB9E"
+			tasks: [{
+				id: "3DE0BAFB047688BA"
+				item: {
+					Count: 1
+					id: "createdieselgenerators:track_layers_bag"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "589353C8D794AD37"
+			tasks: [{
+				id: "0A21041C3C2F68EA"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "6FCF20BF759916B2"
+			tasks: [{
+				id: "233F897647835ACA"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			id: "3D1896EDFC545CBD"
+			tasks: [{
+				id: "4E5085838FBB4BA8"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+	]
+	title: "Create 4 - Латунь и электричество"
+}

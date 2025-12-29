@@ -1,0 +1,33 @@
+
+#.
+#Mechanical Workbench
+[mechanicalWorkbench]
+	#.
+	#.
+	#Maximum stored rotations.
+	#Range: 1 ~ 100000
+	rotationBuffer = 100
+	#.
+	#Maximum stored FE.
+	#Range: 0 ~ 1000000
+	feBuffer = 1000
+	#.
+	#Rotations consumed per craft.
+	#Range: 1 ~ 100000
+	rotationsPerCraft = 20
+	#.
+	#FE converted per rotation.
+	#Range: 1 ~ 100000
+	fePerRotation = 10
+	#.
+	#Whether the manual charge button is available.
+	manualChargeEnabled = true
+	#.
+	#Rotations added per manual charge.
+	#Range: 1 ~ 100000
+	manualChargeAmount = 1
+	#.
+	#Stress impact while charging (per RPM). Set to 0 to disable.
+	#Range: 0.0 ~ 1024.0
+	stressImpact = 16.0
+

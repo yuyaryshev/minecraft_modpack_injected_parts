@@ -277,7 +277,8 @@
     "COELIAC_DISEASE": false,
     "UNKNOWN": false,
     "DWARFISM": false,
-    "TOUGH": false
+    "TOUGH": false,
+    "ASEXUAL": true
   },
   "taxesMap": {
     "lightmanscurrency:coin_iron": 1.0

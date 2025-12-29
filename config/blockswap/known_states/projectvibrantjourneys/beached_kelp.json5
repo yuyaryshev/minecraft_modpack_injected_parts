@@ -1,0 +1,293 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "top",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curved",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curved",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end",
+			"facing": "north"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "top",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "top",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curved",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curved",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end",
+			"facing": "south"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "top",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "top",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curved",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curved",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end",
+			"facing": "west"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "top",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "top",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "straight",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "straight",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "curved",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "curved",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "true",
+			"shape": "end",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"waterlogged": "false",
+			"shape": "end",
+			"facing": "east"
+		},
+		"Name": "projectvibrantjourneys:beached_kelp"
+	}
+]

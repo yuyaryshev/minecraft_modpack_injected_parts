@@ -1,0 +1,4 @@
+#World name to load on startup, accepts spaces
+#Use empty string "" to load the last played world instead
+worldName = ""
+

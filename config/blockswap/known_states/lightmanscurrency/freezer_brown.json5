@@ -1,0 +1,149 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "north",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "south",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "south",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "west",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "west",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "east",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "east",
+			"bottom": "true"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "north",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "north",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "south",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "south",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "west",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "west",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "true",
+			"facing": "east",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"variant": "false",
+			"facing": "east",
+			"bottom": "false"
+		},
+		"Name": "lightmanscurrency:freezer_brown"
+	}
+]
