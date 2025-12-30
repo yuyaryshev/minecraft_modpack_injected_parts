@@ -2,6 +2,7 @@
 // Converts iron ingredients in selected recipes to andesite equivalents
 
 let woodTypes = ["acacia", "birch", "crimson", "dark_oak", "jungle", "oak", "spruce", "warped"];
+var incomplete_item;
 
 ServerEvents.recipes(event => {	
     event.smelting(`create:andesite_alloy`,`yyitems:raw_andesite_alloy_powder`);
@@ -39,6 +40,317 @@ ServerEvents.recipes(event => {
         }
     );
 	
+	incomplete_item = "yyitems:incomplete_gearbox";
+ 
+	  event.custom({
+		type: "create:sequenced_assembly",
+		ingredient: {
+		  item: "create:andesite_casing"
+		},
+		loops: 1,
+		results: [
+		  {
+			item: "create:gearbox"
+		  }
+		],
+		sequence: [
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:pressing",
+			ingredients: [
+			  { item: incomplete_item }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  }
+		],
+		transitionalItem: {
+		  item: incomplete_item
+		}
+	  });
+ 
+ 
+	  incomplete_item = "yyitems:incomplete_brass_gearbox"; 
+	  event.custom({
+		type: "create:sequenced_assembly",
+		ingredient: {
+		  item: "create:brass_casing"
+		},
+		loops: 1,
+		results: [
+		  {
+			item: "create_connected:brass_gearbox"
+		  }
+		],
+		sequence: [
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:deploying",
+			ingredients: [
+			  { item: incomplete_item },
+			  { item: "create:cogwheel" }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  },
+		  {
+			type: "create:pressing",
+			ingredients: [
+			  { item: incomplete_item }
+			],
+			results: [
+			  { item: incomplete_item }
+			]
+		  }
+		],
+		transitionalItem: {
+		  item: incomplete_item
+		}
+	  });
+
+	incomplete_item = "create:incomplete_precision_mechanism";
+	event.custom({
+	  type: "create:sequenced_assembly",
+	  ingredient: {
+		item: "create:golden_sheet"
+	  },
+	  loops: 1,
+	  results: [
+		{
+		  item: "create:precision_mechanism"
+		}
+	  ],
+	  sequence: [
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "create:cogwheel" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "create:large_cogwheel" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "minecraft:iron_nugget" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "create:electron_tube" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:pressing",
+		  ingredients: [
+			{ item: incomplete_item }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		}
+	  ],
+	  transitionalItem: {
+		item: incomplete_item
+	  }
+	});
+
+	incomplete_item = "create_factory_logistics:incomplete_fluid_mechanism";
+	event.custom({
+	  type: "create:sequenced_assembly",
+	  ingredient: {
+		item: "create:copper_sheet"
+	  },
+	  loops: 3,
+	  results: [
+		{
+		  item: "create_factory_logistics:fluid_mechanism",
+		  chance: 250.0
+		},
+		{
+		  item: "create:copper_sheet",
+		  chance: 8.0
+		},
+		{
+		  item: "create:andesite_alloy",
+		  chance: 8.0
+		},
+		{
+		  item: "create:cogwheel",
+		  chance: 5.0
+		},
+		{
+		  item: "minecraft:gold_nugget",
+		  chance: 2.0
+		},
+		{
+		  item: "create:shaft",
+		  chance: 2.0
+		},
+		{
+		  item: "create:crushed_raw_copper",
+		  chance: 2.0
+		},
+		{
+		  item: "create:mechanical_pump"
+		}
+	  ],
+	  sequence: [
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "create:cogwheel" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "create:fluid_pipe" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		},
+		{
+		  type: "create:deploying",
+		  ingredients: [
+			{ item: incomplete_item },
+			{ item: "minecraft:gold_nugget" }
+		  ],
+		  results: [
+			{ item: incomplete_item }
+		  ]
+		}
+	  ],
+	  transitionalItem: {
+		item: incomplete_item
+	  }
+	});
+
+	  event.custom(
+		{
+		  "type": "create_new_age:energising",
+		  "energyNeeded": 2000,
+		  "ingredients": [
+			{
+			  "item": "create_new_age_accumulators:lithium_ingot"
+			}
+		  ],
+		  "results": [
+			{
+			  "item": "create_new_age_accumulators:ionic_lithium"
+			}
+		  ]
+		}
+	  );
+
+	event.recipes.create.milling(
+		'createmetallurgy:copper_dust',
+		'minecraft:copper_ingot'
+	);
+	
+	event.replaceInput(
+		{ output: 'create_new_age_accumulators:nickel_dust' },
+		'minecraft:raw_copper',
+		'createmetallurgy:copper_dust'
+	);
+  
 	event.recipes.create.compacting(['minecraft:andesite'], [Fluid.water(100), 'minecraft:cobblestone']);
 	event.recipes.create.mixing(['minecraft:dirt'], [Fluid.water(200), 'minecraft:gravel']);
 	event.recipes.create.mixing(['minecraft:clay_ball','minecraft:clay_ball','minecraft:clay_ball','minecraft:clay_ball'], [Fluid.water(200), 'minecraft:dirt']);
@@ -137,4 +449,3 @@ LootJS.modifiers((event) => {
         .addBlockLootModifier(`undergarden:shiverstone_coal_ore`)
         .addLoot("yyitems:raw_andesite_alloy_powder");
 });
-

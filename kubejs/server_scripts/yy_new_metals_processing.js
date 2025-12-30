@@ -6,6 +6,9 @@ const useTConstuct = false;
 const moltenModPrefix = useTConstuct?'tconstruct:':'createmetallurgy:';
 const meltingRecipeType = useTConstuct?"tconstruct:melting":"createmetallurgy:melting";
 let firstSelector = true;
+var modid;
+var b;
+var output 
 
 const weaponIngots = true;
 const weaponSelectors = [
@@ -17,9 +20,29 @@ const weaponSelectors = [
     /[_]rapier/,
     /[_]spear/,
     /[/]staff[/]/,
+	/offhand[/]tome[/]/,
+	/jewelry[/]ring[/]/,
+	/jewelry[/]necklace[/]/,
+	/[_]template/,
+	/[_]helmet/,
+	/[_]chestplate/,
+	/[_]leggings/,
+	/[_]boots/,
+	/[_]hammer/,
 ];
 
 const excludeIronAxes = true;
+
+const oreBlocks = [
+	`minecraft:deepslate_iron_ore`,
+	`undergarden:depthrock_iron_ore`,
+	`undergarden:shiverstone_iron_ore`,
+	`deeperdarker:gloomslate_iron_ore`,
+	`deeperdarker:sculk_stone_iron_ore`,
+	`minecraft:deepslate_iron_ore`,
+	`projectvibrantjourneys:ferrous_gravel`,
+	`minecraft:iron_ore`,
+];
 
 const materials = [
 	{
@@ -154,10 +177,20 @@ ServerEvents.recipes(event => {
     event.remove({ id: "minecraft:ender_eye" });
 	event.remove({ id: "yyinfiniteoreveins:diamonds_from_dust" });
 	event.remove({ id: "minecraft:netherite_ingot" });
+	
+	for(let m of materials.filter(m=>m.mainMetal)){
+		for(let b0 of oreBlocks){
+			if(m.cant_be_smelted_from_ore_block) {
+				output = m.ingot || m.cant_be_smelted_from_ore_block;
+				b=b0.split('iron').join(m.n);
+				event.remove({ input:b, output: output});
+			}
+		}		
+	}	
+	event.remove({ input:"#forge/zinc_ores", output: 'create:zinc_ingot'});
+	//event.remove({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'});
+	event.replaceOutput({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'}, "minecraft:gold_nugget", "minecraft:redstone");
 
-	// event.remove({ id: "minecraft:copper_ingot_from_smelting_copper_ore" });
-	// event.remove({ id: "minecraft:iron_ingot_from_smelting_iron_ore" });
-	// event.remove({ id: "minecraft:gold_ingot_from_smelting_gold_ore" });
 	// 
 	// event.remove({ id: "minecraft:redstone_from_smelting_redstone_ore" });
 	// event.remove({ id: "minecraft:redstone_from_smelting_deepslate_redstone_ore" });
@@ -174,20 +207,16 @@ ServerEvents.recipes(event => {
 	
 	//event.remove({ id: "create:zinc_ingot_from_ore" });
 	
-    for (const m of materials) {
-		if(m.cant_be_smelted_from_ore_block) {
-			let output = m.ingot || m.cant_be_smelted_from_ore_block;
-			event.forEachRecipe({ output: output }, recipe => {
-				if(recipe.id.toString().endsWith("_ore")) {
-					recipe.remove();
-				}
-			})
-		}  
-	}
-	
+
 	
 	event.replaceInput({ id: "createmetallurgy:alloying/netherite" },"minecraft:netherite_scrap", "yyitems:inpure_netherite_dust");
 	
+	event.replaceOutput({ id: "create:splashing/gravel" }, "minecraft:iron_nugget", "minecraft:quartz");
+	
+	for(let m of materials.filter(m=>m.mainMetal)){
+		event.remove({ input: m.complementBlock, type:"create:crushing" });
+		event.remove({ input: `#create:stone_types/${m.complementBlock.split(":")[1]}`, type:"create:crushing" });
+	}
 
     event.shapeless("minecraft:ender_eye", ["minecraft:ender_pearl",
       // "tconstruct:necrotic_bone",
@@ -410,15 +439,22 @@ ServerEvents.recipes(event => {
 
 
 
-const oreBlocks = [
-	`deeperdarker:gloomslate_iron_ore`,
-	`deeperdarker:sculk_stone_iron_ore`,
-	`minecraft:deepslate_iron_ore`,
-	`projectvibrantjourneys:ferrous_gravel`,
-	`minecraft:iron_ore`,
-];
 
 let blk;
+let rArray1;
+
+function rArray(m) {
+	rArray1 = [
+		LootEntry.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
+		LootEntry.of(m.raw).withChance(0.1), 
+		LootEntry.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)
+	];
+	if(m.n ==='iron') {
+		rArray1.push(`yyitems:inpure_redstone_dust`);
+	}
+	
+	return rArray1;
+}
 
 LootJS.modifiers((event) => {
 	for(let m of materials.filter(m=>m.mainMetal)){
@@ -429,11 +465,8 @@ LootJS.modifiers((event) => {
 				.removeLoot(ItemFilter.ALWAYS_TRUE)
 				.addWeightedLoot(
 					[20, 40],
-					[
-						Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
-						Item.of(m.raw).withChance(0.1), 
-						Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
-				);
+					rArray(m)
+				).survivesExplosion();
 		}
 
 		event
@@ -441,11 +474,8 @@ LootJS.modifiers((event) => {
 			.removeLoot(ItemFilter.ALWAYS_TRUE)
 			.addWeightedLoot(
 				[20, 40],
-				[
-					Item.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
-					Item.of(m.raw).withChance(0.1), 
-					Item.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)]
-			);
+				rArray(m)
+			).survivesExplosion();
 	}
 });
 
