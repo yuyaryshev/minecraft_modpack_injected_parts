@@ -10,7 +10,7 @@ ServerEvents.recipes(event => {
 	  ],
 	  processingTime: 500,
 	  results: [
-		{ chance: 0.2, item: "minecraft:kelp" },
+		{ chance: 0.005, item: "minecraft:kelp" },
 		{ chance: 0.3, item: "minecraft:seagrass" },
 		{ chance: 0.05, item: "minecraft:tube_coral" },
 		{ chance: 0.05, item: "minecraft:brain_coral" },
@@ -36,7 +36,8 @@ ServerEvents.recipes(event => {
 		{ chance: 0.01, item: "minecraft:torchflower_seeds" },
 		{ chance: 0.01, item: "minecraft:wheat_seeds" },
 		{ chance: 0.01, item: "farmersdelight:rice" },
-		{ chance: 0.01, item: "farmersdelight:onion" }
+		{ chance: 0.01, item: "farmersdelight:onion" },
+		{ chance: 0.003, item: "minecraft:nether_wart" },
 	  ],
 	  waterlogged: true
 	});
@@ -146,7 +147,7 @@ ServerEvents.recipes(event => {
         },
 		{
           "chance": 0.1,
-          "item": "minecraft:clay"
+          "item": "minecraft:clay_ball"
         },
         {
           "chance": 0.1,
@@ -172,7 +173,7 @@ ServerEvents.recipes(event => {
         }
       ],
       "processingTime": 300,
-      "results": "results": [
+      "results": [
         {
           "chance": 0.03,
           "item": "yyitems:raw_copper_nugget"
@@ -211,7 +212,7 @@ ServerEvents.recipes(event => {
         },
 		{
           "chance": 0.1,
-          "item": "minecraft:clay"
+          "item": "minecraft:clay_ball"
         },
         {
           "chance": 0.1,
@@ -295,10 +296,10 @@ ServerEvents.recipes(event => {
           "chance": 0.1,
           "item": "create:experience_nugget"
         },
-		{
+        {
           "chance": 0.01,
           "item": "minecraft:glowstone_dust"
-        },
+        }
       ]
     }
   );
