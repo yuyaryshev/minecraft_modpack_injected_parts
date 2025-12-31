@@ -6,6 +6,35 @@ var incomplete_item;
 
 ServerEvents.recipes(event => {	
     event.smelting(`create:andesite_alloy`,`yyitems:raw_andesite_alloy_powder`);
+
+	event.shapeless("yyitems:glass_form_unfired", ["minecraft:clay_ball", "minecraft:glass_bottle"]).keepIngredient("minecraft:glass_bottle");
+	event.smelting("yyitems:glass_form", "yyitems:glass_form_unfired");
+
+	event.custom({
+		type: "create:deploying",
+		ingredients: [
+			{ item: "yyitems:glass_form" },
+			{ item: "minecraft:sand" }
+		],
+		results: [
+			{ item: "yyitems:glass_bottle_unfiered" },
+			{ item: "yyitems:glass_form" }
+		]
+	});
+
+	event.custom({
+		type: "create:deploying",
+		ingredients: [
+			{ item: "yyitems:glass_form" },
+			{ item: "minecraft:red_sand" }
+		],
+		results: [
+			{ item: "yyitems:glass_bottle_unfiered" },
+			{ item: "yyitems:glass_form" }
+		]
+	});
+
+	event.smelting("minecraft:glass_bottle", "yyitems:glass_bottle_unfiered");
 	
 	event.shaped("flopper:flopper", [
             'SBS',
