@@ -1,0 +1,72 @@
+yy_mmorpg_potions_ex.js isn't working, is too complex and incorrect.
+I've decided to rewrite it from very beginning.
+Here is new idea:
+Use yy_mmorpg_potions_ex_raw_recipes.txt ONLY for resulting potion names.
+
+Recipe is always create:mixing type
+Ingredients:
+- Activation Fluid:
+	{
+	  "fluid": "create:potion",
+	  "nbt": '{Potion: "yyitems:activation_liquid_${ACT_LEVEL}"}',
+	  "amount": 250
+	}
+- And two item ingredients for specific potion type:
+	mmorpg:buff_potion/mythic_arcane	ingredients: minecraft:apple, farmersdelight:rice
+	mmorpg:buff_potion/mythic_crit	 	ingredients: minecraft:brown_mushroom, farmersdelight:cabbage
+	mmorpg:buff_potion/mythic_dex 		ingredients: minecraft:carrot, #forge:cooked_beef
+	mmorpg:buff_potion/mythic_int 		ingredients: #forge:pumpkin_slices, #forge:cooked_chicken
+	mmorpg:buff_potion/mythic_might 	ingredients: minecraft:red_mushroom, minecraft:beetroot
+	mmorpg:buff_potion/mythic_str 		ingredients: minecraft:potato, #forge:cooked_pork
+	mmorpg:potion/health/0 				ingredients: minecraft:tomato, minecraft:sweet_berries
+	mmorpg:potion/resource/0			ingredients: minecraft:melon_slice, minecraft:cocoa_beans
+Result:
+	potion of specific type with level = ACT_LEVEL (if there are many potion variants exist - produce the best one
+	
+Please implement this as simple as possible: serie of strings, no loops, no ifs, no functions if possible with just one exception:
+
+two ingredients must be passed from getIngredients(1, potionType) -> array with two ingredients;
+First parameter is reserved for future use and should always be passed 1
+
+---------------------------------
+
+mmorpg:buff_potion/mythic_arcane,	ingredients: minecraft:apple, farmersdelight:rice
+mmorpg:buff_potion/mythic_crit, 	ingredients: minecraft:brown_mushroom, farmersdelight:cabbage
+mmorpg:buff_potion/mythic_dex, 		ingredients: minecraft:carrot, #forge:cooked_beef
+mmorpg:buff_potion/mythic_int, 		ingredients: #forge:pumpkin_slices, #forge:cooked_chicken
+mmorpg:buff_potion/mythic_might, 	ingredients: minecraft:red_mushroom, minecraft:beetroot
+mmorpg:buff_potion/mythic_str, 		ingredients: minecraft:potato, #forge:cooked_pork
+mmorpg:potion/health/0, 			ingredients: minecraft:tomato, minecraft:sweet_berries
+mmorpg:potion/resource/0,			ingredients: minecraft:melon_slice, minecraft:cocoa_beans
+
+#forge:cooked_fishes
+
+
+
+
+farmersdelight:fried_egg
+	minecraft:apple
+	minecraft:melon_slice
+minecraft:milk_bottle
+minecraft:wheat
+	minecraft:red_mushroom
+	minecraft:brown_mushroom
+
+	#forge:cooked_chicken
+	#forge:cooked_beef
+	minecraft:beetroot
+	farmersdelight:cabbage
+	farmersdelight:rice
+	#forge:pumpkin_slices
+	minecraft:cocoa_beans
+	minecraft:sweet_berries
+
+
+mmorpg:buff_potion/mythic_arcane,	ingredients: minecraft:beetroot x1
+mmorpg:buff_potion/mythic_crit, 	ingredients: minecraft:enchanted_golden_apple x1
+mmorpg:buff_potion/mythic_dex, 		ingredients: minecraft:golden_carrot x1
+mmorpg:buff_potion/mythic_int, 		ingredients: minecraft:golden_apple x1
+mmorpg:buff_potion/mythic_might, 	ingredients: minecraft:apple x1
+mmorpg:buff_potion/mythic_str, 		ingredients: minecraft:gold_ingot x1
+mmorpg:potion/health/0, 			ingredients: minecraft:melon_slice x1, minecraft:nether_wart x1
+mmorpg:potion/resource/0,			ingredients: minecraft:carrot x1, minecraft:beetroot x1

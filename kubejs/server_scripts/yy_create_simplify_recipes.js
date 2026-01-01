@@ -7,34 +7,58 @@ var incomplete_item;
 ServerEvents.recipes(event => {	
     event.smelting(`create:andesite_alloy`,`yyitems:raw_andesite_alloy_powder`);
 
-	event.shapeless("yyitems:glass_form_unfired", ["minecraft:clay_ball", "minecraft:glass_bottle"]).keepIngredient("minecraft:glass_bottle");
-	event.smelting("yyitems:glass_form", "yyitems:glass_form_unfired");
+	event.shapeless("yyitems:glass_bottle_form_unfired", ["minecraft:clay_ball", "minecraft:glass_bottle"]).keepIngredient("minecraft:glass_bottle");
+	event.smelting("yyitems:glass_bottle_form", "yyitems:glass_bottle_form_unfired");
 
 	event.custom({
 		type: "create:deploying",
 		ingredients: [
-			{ item: "yyitems:glass_form" },
-			{ item: "minecraft:sand" }
+			{ item: "minecraft:sand" },
+			{ item: "yyitems:glass_bottle_form" }
 		],
+		keepHeldItem: true,
 		results: [
-			{ item: "yyitems:glass_bottle_unfiered" },
-			{ item: "yyitems:glass_form" }
+			{ item: "yyitems:glass_bottle_unfired" }
 		]
 	});
 
 	event.custom({
 		type: "create:deploying",
 		ingredients: [
-			{ item: "yyitems:glass_form" },
-			{ item: "minecraft:red_sand" }
+			{ item: "minecraft:red_sand" },
+			{ item: "yyitems:glass_bottle_form" }
 		],
+		keepHeldItem: true,
 		results: [
-			{ item: "yyitems:glass_bottle_unfiered" },
-			{ item: "yyitems:glass_form" }
+			{ item: "yyitems:glass_bottle_unfired" }
 		]
 	});
 
-	event.smelting("minecraft:glass_bottle", "yyitems:glass_bottle_unfiered");
+	event.smelting("minecraft:glass_bottle", "yyitems:glass_bottle_unfired");
+
+	event.recipes.create.compacting("yyitems:wooden_frame", [
+		"minecraft:stick",
+		"minecraft:stick",
+		"minecraft:stick",
+		"minecraft:stick"
+	]);
+
+	event.recipes.create.compacting("createsifter:string_mesh", [
+		"yyitems:wooden_frame",
+		"minecraft:string"
+	]);
+	event.recipes.create.compacting("createsifter:andesite_mesh", [
+		"yyitems:wooden_frame",
+		"create:andesite_alloy"
+	]);
+	event.recipes.create.compacting("createsifter:zinc_mesh", [
+		"yyitems:wooden_frame",
+		"create:zinc_ingot"
+	]);
+	event.recipes.create.compacting("createsifter:brass_mesh", [
+		"yyitems:wooden_frame",
+		"create:brass_ingot"
+	]);
 	
 	event.shaped("flopper:flopper", [
             'SBS',

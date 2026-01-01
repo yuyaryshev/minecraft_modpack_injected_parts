@@ -1,0 +1,803 @@
+// Auto-generated from Mine_and_Slash-1.20.1-6.3.6.jar (mmorpg_profession_recipe)
+// Exclusions in Create mixing: mmorpg:stone/* and any item id containing "coin"
+/*
+Extracted potion recipes:
+- id: buff_potion_common_arcane0, tier: 0, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_arcane1, tier: 1, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_arcane2, tier: 2, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_arcane3, tier: 3, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_arcane4, tier: 4, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_arcane5, tier: 5, result: mmorpg:buff_potion/common_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:beetroot x1
+- id: buff_potion_common_crit0, tier: 0, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_crit1, tier: 1, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_crit2, tier: 2, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_crit3, tier: 3, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_crit4, tier: 4, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_crit5, tier: 5, result: mmorpg:buff_potion/common_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_common_dex0, tier: 0, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_dex1, tier: 1, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_dex2, tier: 2, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_dex3, tier: 3, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_dex4, tier: 4, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_dex5, tier: 5, result: mmorpg:buff_potion/common_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:golden_carrot x1
+- id: buff_potion_common_int0, tier: 0, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_int1, tier: 1, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_int2, tier: 2, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_int3, tier: 3, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_int4, tier: 4, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_int5, tier: 5, result: mmorpg:buff_potion/common_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:golden_apple x1
+- id: buff_potion_common_might0, tier: 0, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_might1, tier: 1, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_might2, tier: 2, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_might3, tier: 3, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_might4, tier: 4, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_might5, tier: 5, result: mmorpg:buff_potion/common_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:apple x1
+- id: buff_potion_common_str0, tier: 0, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_common_str1, tier: 1, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_common_str2, tier: 2, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_common_str3, tier: 3, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_common_str4, tier: 4, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_common_str5, tier: 5, result: mmorpg:buff_potion/common_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_arcane0, tier: 0, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_arcane1, tier: 1, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_arcane2, tier: 2, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_arcane3, tier: 3, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_arcane4, tier: 4, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_arcane5, tier: 5, result: mmorpg:buff_potion/epic_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:beetroot x1
+- id: buff_potion_epic_crit0, tier: 0, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_crit1, tier: 1, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_crit2, tier: 2, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_crit3, tier: 3, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_crit4, tier: 4, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_crit5, tier: 5, result: mmorpg:buff_potion/epic_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_epic_dex0, tier: 0, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_dex1, tier: 1, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_dex2, tier: 2, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_dex3, tier: 3, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_dex4, tier: 4, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_dex5, tier: 5, result: mmorpg:buff_potion/epic_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:golden_carrot x1
+- id: buff_potion_epic_int0, tier: 0, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_int1, tier: 1, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_int2, tier: 2, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_int3, tier: 3, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_int4, tier: 4, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_int5, tier: 5, result: mmorpg:buff_potion/epic_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:golden_apple x1
+- id: buff_potion_epic_might0, tier: 0, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_might1, tier: 1, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_might2, tier: 2, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_might3, tier: 3, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_might4, tier: 4, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_might5, tier: 5, result: mmorpg:buff_potion/epic_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:apple x1
+- id: buff_potion_epic_str0, tier: 0, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_str1, tier: 1, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_str2, tier: 2, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_str3, tier: 3, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_str4, tier: 4, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_epic_str5, tier: 5, result: mmorpg:buff_potion/epic_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_arcane0, tier: 0, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_arcane1, tier: 1, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_arcane2, tier: 2, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_arcane3, tier: 3, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_arcane4, tier: 4, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_arcane5, tier: 5, result: mmorpg:buff_potion/legendary_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:beetroot x1
+- id: buff_potion_legendary_crit0, tier: 0, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_crit1, tier: 1, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_crit2, tier: 2, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_crit3, tier: 3, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_crit4, tier: 4, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_crit5, tier: 5, result: mmorpg:buff_potion/legendary_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_legendary_dex0, tier: 0, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_dex1, tier: 1, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_dex2, tier: 2, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_dex3, tier: 3, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_dex4, tier: 4, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_dex5, tier: 5, result: mmorpg:buff_potion/legendary_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:golden_carrot x1
+- id: buff_potion_legendary_int0, tier: 0, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_int1, tier: 1, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_int2, tier: 2, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_int3, tier: 3, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_int4, tier: 4, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_int5, tier: 5, result: mmorpg:buff_potion/legendary_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:golden_apple x1
+- id: buff_potion_legendary_might0, tier: 0, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_might1, tier: 1, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_might2, tier: 2, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_might3, tier: 3, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_might4, tier: 4, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_might5, tier: 5, result: mmorpg:buff_potion/legendary_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:apple x1
+- id: buff_potion_legendary_str0, tier: 0, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_str1, tier: 1, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_str2, tier: 2, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_str3, tier: 3, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_str4, tier: 4, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_legendary_str5, tier: 5, result: mmorpg:buff_potion/legendary_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_arcane0, tier: 0, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_arcane1, tier: 1, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_arcane2, tier: 2, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_arcane3, tier: 3, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_arcane4, tier: 4, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_arcane5, tier: 5, result: mmorpg:buff_potion/mythic_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:beetroot x1
+- id: buff_potion_mythic_crit0, tier: 0, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_crit1, tier: 1, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_crit2, tier: 2, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_crit3, tier: 3, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_crit4, tier: 4, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_crit5, tier: 5, result: mmorpg:buff_potion/mythic_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_mythic_dex0, tier: 0, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_dex1, tier: 1, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_dex2, tier: 2, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_dex3, tier: 3, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_dex4, tier: 4, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_dex5, tier: 5, result: mmorpg:buff_potion/mythic_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:golden_carrot x1
+- id: buff_potion_mythic_int0, tier: 0, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_int1, tier: 1, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_int2, tier: 2, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_int3, tier: 3, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_int4, tier: 4, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_int5, tier: 5, result: mmorpg:buff_potion/mythic_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:golden_apple x1
+- id: buff_potion_mythic_might0, tier: 0, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_might1, tier: 1, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_might2, tier: 2, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_might3, tier: 3, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_might4, tier: 4, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_might5, tier: 5, result: mmorpg:buff_potion/mythic_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:apple x1
+- id: buff_potion_mythic_str0, tier: 0, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_str1, tier: 1, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_str2, tier: 2, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_str3, tier: 3, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_str4, tier: 4, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_mythic_str5, tier: 5, result: mmorpg:buff_potion/mythic_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_arcane0, tier: 0, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_arcane1, tier: 1, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_arcane2, tier: 2, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_arcane3, tier: 3, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_arcane4, tier: 4, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_arcane5, tier: 5, result: mmorpg:buff_potion/rare_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:beetroot x1
+- id: buff_potion_rare_crit0, tier: 0, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_crit1, tier: 1, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_crit2, tier: 2, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_crit3, tier: 3, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_crit4, tier: 4, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_crit5, tier: 5, result: mmorpg:buff_potion/rare_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_rare_dex0, tier: 0, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_dex1, tier: 1, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_dex2, tier: 2, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_dex3, tier: 3, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_dex4, tier: 4, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_dex5, tier: 5, result: mmorpg:buff_potion/rare_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:golden_carrot x1
+- id: buff_potion_rare_int0, tier: 0, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_int1, tier: 1, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_int2, tier: 2, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_int3, tier: 3, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_int4, tier: 4, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_int5, tier: 5, result: mmorpg:buff_potion/rare_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:golden_apple x1
+- id: buff_potion_rare_might0, tier: 0, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_might1, tier: 1, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_might2, tier: 2, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_might3, tier: 3, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_might4, tier: 4, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_might5, tier: 5, result: mmorpg:buff_potion/rare_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:apple x1
+- id: buff_potion_rare_str0, tier: 0, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_str1, tier: 1, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_str2, tier: 2, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_str3, tier: 3, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_str4, tier: 4, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_rare_str5, tier: 5, result: mmorpg:buff_potion/rare_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_arcane0, tier: 0, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_arcane1, tier: 1, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_arcane2, tier: 2, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_arcane3, tier: 3, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_arcane4, tier: 4, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_arcane5, tier: 5, result: mmorpg:buff_potion/uncommon_arcane, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:beetroot x1
+- id: buff_potion_uncommon_crit0, tier: 0, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_crit1, tier: 1, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_crit2, tier: 2, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_crit3, tier: 3, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_crit4, tier: 4, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_crit5, tier: 5, result: mmorpg:buff_potion/uncommon_crit, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:enchanted_golden_apple x1
+- id: buff_potion_uncommon_dex0, tier: 0, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_dex1, tier: 1, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_dex2, tier: 2, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_dex3, tier: 3, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_dex4, tier: 4, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_dex5, tier: 5, result: mmorpg:buff_potion/uncommon_dex, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:golden_carrot x1
+- id: buff_potion_uncommon_int0, tier: 0, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_int1, tier: 1, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_int2, tier: 2, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_int3, tier: 3, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_int4, tier: 4, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_int5, tier: 5, result: mmorpg:buff_potion/uncommon_int, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:golden_apple x1
+- id: buff_potion_uncommon_might0, tier: 0, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_might1, tier: 1, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_might2, tier: 2, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_might3, tier: 3, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_might4, tier: 4, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_might5, tier: 5, result: mmorpg:buff_potion/uncommon_might, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:apple x1
+- id: buff_potion_uncommon_str0, tier: 0, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_str1, tier: 1, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_str2, tier: 2, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_str3, tier: 3, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_str4, tier: 4, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: buff_potion_uncommon_str5, tier: 5, result: mmorpg:buff_potion/uncommon_str, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x10, minecraft:gold_ingot x1
+- id: currency_sharpening_stone_00, tier: 0, result: mmorpg:currency/sharpening_stone_0, mats: mmorpg:material/mining/0 x3, minecraft:coal x1
+- id: currency_sharpening_stone_11, tier: 1, result: mmorpg:currency/sharpening_stone_1, mats: mmorpg:material/mining/1 x6, minecraft:coal x1, minecraft:copper_ingot x1
+- id: currency_sharpening_stone_22, tier: 2, result: mmorpg:currency/sharpening_stone_2, mats: mmorpg:material/mining/2 x9, minecraft:coal x1, minecraft:copper_ingot x1, minecraft:iron_ingot x1
+- id: currency_sharpening_stone_33, tier: 3, result: mmorpg:currency/sharpening_stone_3, mats: mmorpg:material/mining/3 x12, minecraft:coal x1, minecraft:copper_ingot x1, minecraft:iron_ingot x1, minecraft:gold_ingot x1
+- id: currency_sharpening_stone_44, tier: 4, result: mmorpg:currency/sharpening_stone_4, mats: mmorpg:material/mining/4 x15, minecraft:coal x1, minecraft:copper_ingot x1, minecraft:iron_ingot x1, minecraft:gold_ingot x1, minecraft:diamond x1
+- id: currency_sharpening_stone_55, tier: 5, result: mmorpg:currency/sharpening_stone_5, mats: mmorpg:material/mining/5 x18, minecraft:coal x1, minecraft:copper_ingot x1, minecraft:iron_ingot x1, minecraft:gold_ingot x1, minecraft:diamond x1, minecraft:netherite_ingot x1
+- id: enchantment_family_armor_common0, tier: 0, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_common1, tier: 1, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_common2, tier: 2, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_common3, tier: 3, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_common4, tier: 4, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_common5, tier: 5, result: mmorpg:enchantment/family/armor/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic0, tier: 0, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/0 x1, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic1, tier: 1, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/1 x3, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic2, tier: 2, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/2 x4, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic3, tier: 3, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/3 x6, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic4, tier: 4, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/4 x8, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_epic5, tier: 5, result: mmorpg:enchantment/family/armor/epic, mats: mmorpg:material/mining/5 x9, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary0, tier: 0, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/0 x1, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary1, tier: 1, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/1 x3, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary2, tier: 2, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/2 x5, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary3, tier: 3, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/3 x7, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary4, tier: 4, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/4 x9, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_legendary5, tier: 5, result: mmorpg:enchantment/family/armor/legendary, mats: mmorpg:material/mining/5 x10, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic0, tier: 0, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic1, tier: 1, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic2, tier: 2, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic3, tier: 3, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic4, tier: 4, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/4 x10, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_mythic5, tier: 5, result: mmorpg:enchantment/family/armor/mythic, mats: mmorpg:material/mining/5 x12, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare0, tier: 0, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare1, tier: 1, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/1 x2, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare2, tier: 2, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/2 x4, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare3, tier: 3, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/3 x5, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare4, tier: 4, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/4 x7, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_rare5, tier: 5, result: mmorpg:enchantment/family/armor/rare, mats: mmorpg:material/mining/5 x8, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon0, tier: 0, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon1, tier: 1, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon2, tier: 2, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/2 x3, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon3, tier: 3, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/3 x4, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon4, tier: 4, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/4 x6, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_armor_uncommon5, tier: 5, result: mmorpg:enchantment/family/armor/uncommon, mats: mmorpg:material/mining/5 x7, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_boots x1
+- id: enchantment_family_jewelry_common0, tier: 0, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_common1, tier: 1, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_common2, tier: 2, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_common3, tier: 3, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_common4, tier: 4, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_common5, tier: 5, result: mmorpg:enchantment/family/jewelry/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x3, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic0, tier: 0, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/0 x1, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic1, tier: 1, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/1 x3, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic2, tier: 2, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/2 x4, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic3, tier: 3, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/3 x6, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic4, tier: 4, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/4 x8, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_epic5, tier: 5, result: mmorpg:enchantment/family/jewelry/epic, mats: mmorpg:material/mining/5 x9, mmorpg:stone/3 x6, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary0, tier: 0, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/0 x1, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary1, tier: 1, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/1 x3, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary2, tier: 2, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/2 x5, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary3, tier: 3, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/3 x7, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary4, tier: 4, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/4 x9, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_legendary5, tier: 5, result: mmorpg:enchantment/family/jewelry/legendary, mats: mmorpg:material/mining/5 x10, mmorpg:stone/4 x7, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic0, tier: 0, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic1, tier: 1, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic2, tier: 2, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic3, tier: 3, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic4, tier: 4, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/4 x10, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_mythic5, tier: 5, result: mmorpg:enchantment/family/jewelry/mythic, mats: mmorpg:material/mining/5 x12, mmorpg:stone/5 x8, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare0, tier: 0, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare1, tier: 1, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/1 x2, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare2, tier: 2, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/2 x4, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare3, tier: 3, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/3 x5, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare4, tier: 4, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/4 x7, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_rare5, tier: 5, result: mmorpg:enchantment/family/jewelry/rare, mats: mmorpg:material/mining/5 x8, mmorpg:stone/2 x5, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon0, tier: 0, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon1, tier: 1, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon2, tier: 2, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/2 x3, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon3, tier: 3, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/3 x4, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon4, tier: 4, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/4 x6, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_jewelry_uncommon5, tier: 5, result: mmorpg:enchantment/family/jewelry/uncommon, mats: mmorpg:material/mining/5 x7, mmorpg:stone/1 x4, minecraft:paper x1, mmorpg:jewelry/ring/iron x1
+- id: enchantment_family_offhand_common0, tier: 0, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_common1, tier: 1, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_common2, tier: 2, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_common3, tier: 3, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_common4, tier: 4, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_common5, tier: 5, result: mmorpg:enchantment/family/offhand/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic0, tier: 0, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/0 x1, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic1, tier: 1, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/1 x3, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic2, tier: 2, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/2 x4, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic3, tier: 3, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/3 x6, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic4, tier: 4, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/4 x8, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_epic5, tier: 5, result: mmorpg:enchantment/family/offhand/epic, mats: mmorpg:material/mining/5 x9, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary0, tier: 0, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/0 x1, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary1, tier: 1, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/1 x3, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary2, tier: 2, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/2 x5, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary3, tier: 3, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/3 x7, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary4, tier: 4, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/4 x9, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_legendary5, tier: 5, result: mmorpg:enchantment/family/offhand/legendary, mats: mmorpg:material/mining/5 x10, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic0, tier: 0, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic1, tier: 1, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic2, tier: 2, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic3, tier: 3, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic4, tier: 4, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/4 x10, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_mythic5, tier: 5, result: mmorpg:enchantment/family/offhand/mythic, mats: mmorpg:material/mining/5 x12, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare0, tier: 0, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare1, tier: 1, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/1 x2, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare2, tier: 2, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/2 x4, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare3, tier: 3, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/3 x5, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare4, tier: 4, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/4 x7, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_rare5, tier: 5, result: mmorpg:enchantment/family/offhand/rare, mats: mmorpg:material/mining/5 x8, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon0, tier: 0, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon1, tier: 1, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon2, tier: 2, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/2 x3, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon3, tier: 3, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/3 x4, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon4, tier: 4, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/4 x6, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_offhand_uncommon5, tier: 5, result: mmorpg:enchantment/family/offhand/uncommon, mats: mmorpg:material/mining/5 x7, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:shield x1
+- id: enchantment_family_weapon_common0, tier: 0, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_common1, tier: 1, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_common2, tier: 2, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_common3, tier: 3, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_common4, tier: 4, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_common5, tier: 5, result: mmorpg:enchantment/family/weapon/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x3, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic0, tier: 0, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/0 x1, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic1, tier: 1, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/1 x3, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic2, tier: 2, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/2 x4, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic3, tier: 3, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/3 x6, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic4, tier: 4, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/4 x8, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_epic5, tier: 5, result: mmorpg:enchantment/family/weapon/epic, mats: mmorpg:material/mining/5 x9, mmorpg:stone/3 x6, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary0, tier: 0, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/0 x1, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary1, tier: 1, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/1 x3, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary2, tier: 2, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/2 x5, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary3, tier: 3, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/3 x7, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary4, tier: 4, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/4 x9, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_legendary5, tier: 5, result: mmorpg:enchantment/family/weapon/legendary, mats: mmorpg:material/mining/5 x10, mmorpg:stone/4 x7, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic0, tier: 0, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic1, tier: 1, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic2, tier: 2, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic3, tier: 3, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic4, tier: 4, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/4 x10, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_mythic5, tier: 5, result: mmorpg:enchantment/family/weapon/mythic, mats: mmorpg:material/mining/5 x12, mmorpg:stone/5 x8, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare0, tier: 0, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare1, tier: 1, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/1 x2, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare2, tier: 2, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/2 x4, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare3, tier: 3, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/3 x5, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare4, tier: 4, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/4 x7, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_rare5, tier: 5, result: mmorpg:enchantment/family/weapon/rare, mats: mmorpg:material/mining/5 x8, mmorpg:stone/2 x5, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon0, tier: 0, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon1, tier: 1, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon2, tier: 2, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/2 x3, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon3, tier: 3, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/3 x4, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon4, tier: 4, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/4 x6, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: enchantment_family_weapon_uncommon5, tier: 5, result: mmorpg:enchantment/family/weapon/uncommon, mats: mmorpg:material/mining/5 x7, mmorpg:stone/1 x4, minecraft:paper x1, minecraft:iron_sword x1
+- id: food_common_energy0, tier: 0, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_energy1, tier: 1, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_energy2, tier: 2, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_energy3, tier: 3, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_energy4, tier: 4, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_energy5, tier: 5, result: mmorpg:food/common_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/0 x10, minecraft:cooked_rabbit x1
+- id: food_common_life0, tier: 0, result: mmorpg:food/common_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_life1, tier: 1, result: mmorpg:food/common_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_life2, tier: 2, result: mmorpg:food/common_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_life3, tier: 3, result: mmorpg:food/common_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_life4, tier: 4, result: mmorpg:food/common_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_life5, tier: 5, result: mmorpg:food/common_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/0 x10, minecraft:cooked_beef x1
+- id: food_common_magic0, tier: 0, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_magic1, tier: 1, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_magic2, tier: 2, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_magic3, tier: 3, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_magic4, tier: 4, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_magic5, tier: 5, result: mmorpg:food/common_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/0 x10, minecraft:cooked_mutton x1
+- id: food_common_mana0, tier: 0, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_common_mana1, tier: 1, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_common_mana2, tier: 2, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_common_mana3, tier: 3, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_common_mana4, tier: 4, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_common_mana5, tier: 5, result: mmorpg:food/common_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/0 x10, minecraft:cooked_chicken x1
+- id: food_epic_energy0, tier: 0, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_energy1, tier: 1, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_energy2, tier: 2, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_energy3, tier: 3, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_energy4, tier: 4, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_energy5, tier: 5, result: mmorpg:food/epic_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/3 x10, minecraft:cooked_rabbit x1
+- id: food_epic_life0, tier: 0, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_life1, tier: 1, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_life2, tier: 2, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_life3, tier: 3, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_life4, tier: 4, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_life5, tier: 5, result: mmorpg:food/epic_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/3 x10, minecraft:cooked_beef x1
+- id: food_epic_magic0, tier: 0, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_magic1, tier: 1, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_magic2, tier: 2, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_magic3, tier: 3, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_magic4, tier: 4, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_magic5, tier: 5, result: mmorpg:food/epic_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/3 x10, minecraft:cooked_mutton x1
+- id: food_epic_mana0, tier: 0, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_epic_mana1, tier: 1, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_epic_mana2, tier: 2, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_epic_mana3, tier: 3, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_epic_mana4, tier: 4, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_epic_mana5, tier: 5, result: mmorpg:food/epic_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/3 x10, minecraft:cooked_chicken x1
+- id: food_legendary_energy0, tier: 0, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_energy1, tier: 1, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_energy2, tier: 2, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_energy3, tier: 3, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_energy4, tier: 4, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_energy5, tier: 5, result: mmorpg:food/legendary_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/4 x10, minecraft:cooked_rabbit x1
+- id: food_legendary_life0, tier: 0, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_life1, tier: 1, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_life2, tier: 2, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_life3, tier: 3, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_life4, tier: 4, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_life5, tier: 5, result: mmorpg:food/legendary_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/4 x10, minecraft:cooked_beef x1
+- id: food_legendary_magic0, tier: 0, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_magic1, tier: 1, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_magic2, tier: 2, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_magic3, tier: 3, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_magic4, tier: 4, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_magic5, tier: 5, result: mmorpg:food/legendary_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/4 x10, minecraft:cooked_mutton x1
+- id: food_legendary_mana0, tier: 0, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_legendary_mana1, tier: 1, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_legendary_mana2, tier: 2, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_legendary_mana3, tier: 3, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_legendary_mana4, tier: 4, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_legendary_mana5, tier: 5, result: mmorpg:food/legendary_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/4 x10, minecraft:cooked_chicken x1
+- id: food_mythic_energy0, tier: 0, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_energy1, tier: 1, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_energy2, tier: 2, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_energy3, tier: 3, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_energy4, tier: 4, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_energy5, tier: 5, result: mmorpg:food/mythic_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/5 x10, minecraft:cooked_rabbit x1
+- id: food_mythic_life0, tier: 0, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_life1, tier: 1, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_life2, tier: 2, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_life3, tier: 3, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_life4, tier: 4, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_life5, tier: 5, result: mmorpg:food/mythic_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/5 x10, minecraft:cooked_beef x1
+- id: food_mythic_magic0, tier: 0, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_magic1, tier: 1, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_magic2, tier: 2, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_magic3, tier: 3, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_magic4, tier: 4, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_magic5, tier: 5, result: mmorpg:food/mythic_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/5 x10, minecraft:cooked_mutton x1
+- id: food_mythic_mana0, tier: 0, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_mythic_mana1, tier: 1, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_mythic_mana2, tier: 2, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_mythic_mana3, tier: 3, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_mythic_mana4, tier: 4, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_mythic_mana5, tier: 5, result: mmorpg:food/mythic_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/5 x10, minecraft:cooked_chicken x1
+- id: food_rare_energy0, tier: 0, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_energy1, tier: 1, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_energy2, tier: 2, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_energy3, tier: 3, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_energy4, tier: 4, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_energy5, tier: 5, result: mmorpg:food/rare_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/2 x10, minecraft:cooked_rabbit x1
+- id: food_rare_life0, tier: 0, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_life1, tier: 1, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_life2, tier: 2, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_life3, tier: 3, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_life4, tier: 4, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_life5, tier: 5, result: mmorpg:food/rare_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/2 x10, minecraft:cooked_beef x1
+- id: food_rare_magic0, tier: 0, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_magic1, tier: 1, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_magic2, tier: 2, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_magic3, tier: 3, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_magic4, tier: 4, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_magic5, tier: 5, result: mmorpg:food/rare_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/2 x10, minecraft:cooked_mutton x1
+- id: food_rare_mana0, tier: 0, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_rare_mana1, tier: 1, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_rare_mana2, tier: 2, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_rare_mana3, tier: 3, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_rare_mana4, tier: 4, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_rare_mana5, tier: 5, result: mmorpg:food/rare_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/2 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_energy0, tier: 0, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/0 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_energy1, tier: 1, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/1 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_energy2, tier: 2, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/2 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_energy3, tier: 3, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/3 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_energy4, tier: 4, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/4 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_energy5, tier: 5, result: mmorpg:food/uncommon_energy, mats: mmorpg:material/meat/5 x5, mmorpg:stone/1 x10, minecraft:cooked_rabbit x1
+- id: food_uncommon_life0, tier: 0, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/0 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_life1, tier: 1, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/1 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_life2, tier: 2, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/2 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_life3, tier: 3, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/3 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_life4, tier: 4, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/4 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_life5, tier: 5, result: mmorpg:food/uncommon_life, mats: mmorpg:material/meat/5 x5, mmorpg:stone/1 x10, minecraft:cooked_beef x1
+- id: food_uncommon_magic0, tier: 0, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/0 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_magic1, tier: 1, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/1 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_magic2, tier: 2, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/2 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_magic3, tier: 3, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/3 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_magic4, tier: 4, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/4 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_magic5, tier: 5, result: mmorpg:food/uncommon_magic, mats: mmorpg:material/meat/5 x5, mmorpg:stone/1 x10, minecraft:cooked_mutton x1
+- id: food_uncommon_mana0, tier: 0, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/0 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_mana1, tier: 1, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/1 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_mana2, tier: 2, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/2 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_mana3, tier: 3, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/3 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_mana4, tier: 4, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/4 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: food_uncommon_mana5, tier: 5, result: mmorpg:food/uncommon_mana, mats: mmorpg:material/meat/5 x5, mmorpg:stone/1 x10, minecraft:cooked_chicken x1
+- id: potion_health_00, tier: 0, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1
+- id: potion_health_01, tier: 1, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_02, tier: 2, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_03, tier: 3, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_04, tier: 4, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_05, tier: 5, result: mmorpg:potion/health/0, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_10, tier: 0, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1
+- id: potion_health_11, tier: 1, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_12, tier: 2, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_13, tier: 3, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_14, tier: 4, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_15, tier: 5, result: mmorpg:potion/health/1, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_20, tier: 0, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1
+- id: potion_health_21, tier: 1, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_22, tier: 2, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_23, tier: 3, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_24, tier: 4, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_25, tier: 5, result: mmorpg:potion/health/2, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_30, tier: 0, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1
+- id: potion_health_31, tier: 1, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_32, tier: 2, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_33, tier: 3, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_34, tier: 4, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_35, tier: 5, result: mmorpg:potion/health/3, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_40, tier: 0, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1
+- id: potion_health_41, tier: 1, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_42, tier: 2, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_43, tier: 3, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_44, tier: 4, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_45, tier: 5, result: mmorpg:potion/health/4, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_50, tier: 0, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1
+- id: potion_health_51, tier: 1, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_52, tier: 2, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_53, tier: 3, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_54, tier: 4, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_health_55, tier: 5, result: mmorpg:potion/health/5, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x1, minecraft:melon_slice x1, minecraft:nether_wart x1
+- id: potion_resource_00, tier: 0, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/0 x5, mmorpg:stone/0 x1, minecraft:carrot x1
+- id: potion_resource_01, tier: 1, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/1 x5, mmorpg:stone/0 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_02, tier: 2, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/2 x5, mmorpg:stone/0 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_03, tier: 3, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/3 x5, mmorpg:stone/0 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_04, tier: 4, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/4 x5, mmorpg:stone/0 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_05, tier: 5, result: mmorpg:potion/resource/0, mats: mmorpg:material/farming/5 x5, mmorpg:stone/0 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_10, tier: 0, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/0 x5, mmorpg:stone/1 x1, minecraft:carrot x1
+- id: potion_resource_11, tier: 1, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/1 x5, mmorpg:stone/1 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_12, tier: 2, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/2 x5, mmorpg:stone/1 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_13, tier: 3, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/3 x5, mmorpg:stone/1 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_14, tier: 4, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/4 x5, mmorpg:stone/1 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_15, tier: 5, result: mmorpg:potion/resource/1, mats: mmorpg:material/farming/5 x5, mmorpg:stone/1 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_20, tier: 0, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/0 x5, mmorpg:stone/2 x1, minecraft:carrot x1
+- id: potion_resource_21, tier: 1, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/1 x5, mmorpg:stone/2 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_22, tier: 2, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/2 x5, mmorpg:stone/2 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_23, tier: 3, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/3 x5, mmorpg:stone/2 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_24, tier: 4, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/4 x5, mmorpg:stone/2 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_25, tier: 5, result: mmorpg:potion/resource/2, mats: mmorpg:material/farming/5 x5, mmorpg:stone/2 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_30, tier: 0, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/0 x5, mmorpg:stone/3 x1, minecraft:carrot x1
+- id: potion_resource_31, tier: 1, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/1 x5, mmorpg:stone/3 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_32, tier: 2, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/2 x5, mmorpg:stone/3 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_33, tier: 3, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/3 x5, mmorpg:stone/3 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_34, tier: 4, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/4 x5, mmorpg:stone/3 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_35, tier: 5, result: mmorpg:potion/resource/3, mats: mmorpg:material/farming/5 x5, mmorpg:stone/3 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_40, tier: 0, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/0 x5, mmorpg:stone/4 x1, minecraft:carrot x1
+- id: potion_resource_41, tier: 1, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/1 x5, mmorpg:stone/4 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_42, tier: 2, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/2 x5, mmorpg:stone/4 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_43, tier: 3, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/3 x5, mmorpg:stone/4 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_44, tier: 4, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/4 x5, mmorpg:stone/4 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_45, tier: 5, result: mmorpg:potion/resource/4, mats: mmorpg:material/farming/5 x5, mmorpg:stone/4 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_50, tier: 0, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/0 x5, mmorpg:stone/5 x1, minecraft:carrot x1
+- id: potion_resource_51, tier: 1, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/1 x5, mmorpg:stone/5 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_52, tier: 2, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/2 x5, mmorpg:stone/5 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_53, tier: 3, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/3 x5, mmorpg:stone/5 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_54, tier: 4, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/4 x5, mmorpg:stone/5 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: potion_resource_55, tier: 5, result: mmorpg:potion/resource/5, mats: mmorpg:material/farming/5 x5, mmorpg:stone/5 x1, minecraft:carrot x1, minecraft:beetroot x1
+- id: seafood_common_exp0, tier: 0, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_exp1, tier: 1, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_exp2, tier: 2, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_exp3, tier: 3, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_exp4, tier: 4, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_exp5, tier: 5, result: mmorpg:seafood/common_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/0 x10, minecraft:tropical_fish x1
+- id: seafood_common_loot0, tier: 0, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_common_loot1, tier: 1, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_common_loot2, tier: 2, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_common_loot3, tier: 3, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_common_loot4, tier: 4, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_common_loot5, tier: 5, result: mmorpg:seafood/common_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/0 x10, minecraft:pufferfish x1
+- id: seafood_epic_exp0, tier: 0, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_exp1, tier: 1, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_exp2, tier: 2, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_exp3, tier: 3, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_exp4, tier: 4, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_exp5, tier: 5, result: mmorpg:seafood/epic_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/3 x10, minecraft:tropical_fish x1
+- id: seafood_epic_loot0, tier: 0, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_epic_loot1, tier: 1, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_epic_loot2, tier: 2, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_epic_loot3, tier: 3, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_epic_loot4, tier: 4, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_epic_loot5, tier: 5, result: mmorpg:seafood/epic_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/3 x10, minecraft:pufferfish x1
+- id: seafood_legendary_exp0, tier: 0, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_exp1, tier: 1, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_exp2, tier: 2, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_exp3, tier: 3, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_exp4, tier: 4, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_exp5, tier: 5, result: mmorpg:seafood/legendary_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/4 x10, minecraft:tropical_fish x1
+- id: seafood_legendary_loot0, tier: 0, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_legendary_loot1, tier: 1, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_legendary_loot2, tier: 2, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_legendary_loot3, tier: 3, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_legendary_loot4, tier: 4, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_legendary_loot5, tier: 5, result: mmorpg:seafood/legendary_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/4 x10, minecraft:pufferfish x1
+- id: seafood_mythic_exp0, tier: 0, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_exp1, tier: 1, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_exp2, tier: 2, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_exp3, tier: 3, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_exp4, tier: 4, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_exp5, tier: 5, result: mmorpg:seafood/mythic_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/5 x10, minecraft:tropical_fish x1
+- id: seafood_mythic_loot0, tier: 0, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_mythic_loot1, tier: 1, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_mythic_loot2, tier: 2, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_mythic_loot3, tier: 3, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_mythic_loot4, tier: 4, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_mythic_loot5, tier: 5, result: mmorpg:seafood/mythic_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/5 x10, minecraft:pufferfish x1
+- id: seafood_rare_exp0, tier: 0, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_exp1, tier: 1, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_exp2, tier: 2, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_exp3, tier: 3, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_exp4, tier: 4, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_exp5, tier: 5, result: mmorpg:seafood/rare_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/2 x10, minecraft:tropical_fish x1
+- id: seafood_rare_loot0, tier: 0, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_rare_loot1, tier: 1, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_rare_loot2, tier: 2, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_rare_loot3, tier: 3, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_rare_loot4, tier: 4, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_rare_loot5, tier: 5, result: mmorpg:seafood/rare_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/2 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_exp0, tier: 0, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_exp1, tier: 1, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_exp2, tier: 2, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_exp3, tier: 3, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_exp4, tier: 4, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_exp5, tier: 5, result: mmorpg:seafood/uncommon_exp, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/1 x10, minecraft:tropical_fish x1
+- id: seafood_uncommon_loot0, tier: 0, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/0 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_loot1, tier: 1, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/1 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_loot2, tier: 2, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/2 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_loot3, tier: 3, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/3 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_loot4, tier: 4, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/4 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: seafood_uncommon_loot5, tier: 5, result: mmorpg:seafood/uncommon_loot, mats: mmorpg:material/fishing/5 x5, mmorpg:stone/1 x10, minecraft:pufferfish x1
+- id: stat_soul_family_armor_common0, tier: 0, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_common1, tier: 1, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_common2, tier: 2, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_common3, tier: 3, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_common4, tier: 4, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_common5, tier: 5, result: mmorpg:stat_soul/family/armor/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x4, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic0, tier: 0, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic1, tier: 1, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic2, tier: 2, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic3, tier: 3, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic4, tier: 4, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/4 x11, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_epic5, tier: 5, result: mmorpg:stat_soul/family/armor/epic, mats: mmorpg:material/mining/5 x13, mmorpg:stone/3 x9, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary0, tier: 0, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/0 x2, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary1, tier: 1, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/1 x5, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary2, tier: 2, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/2 x7, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary3, tier: 3, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/3 x10, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary4, tier: 4, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/4 x13, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_legendary5, tier: 5, result: mmorpg:stat_soul/family/armor/legendary, mats: mmorpg:material/mining/5 x15, mmorpg:stone/4 x10, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic0, tier: 0, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/0 x6, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic1, tier: 1, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/1 x12, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic2, tier: 2, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/2 x18, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic3, tier: 3, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/3 x24, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic4, tier: 4, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/4 x30, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_mythic5, tier: 5, result: mmorpg:stat_soul/family/armor/mythic, mats: mmorpg:material/mining/5 x36, mmorpg:stone/5 x30, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare0, tier: 0, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare1, tier: 1, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/1 x3, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare2, tier: 2, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/2 x5, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare3, tier: 3, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/3 x7, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare4, tier: 4, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/4 x9, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_rare5, tier: 5, result: mmorpg:stat_soul/family/armor/rare, mats: mmorpg:material/mining/5 x10, mmorpg:stone/2 x7, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon0, tier: 0, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon1, tier: 1, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon2, tier: 2, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/2 x4, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon3, tier: 3, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/3 x5, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon4, tier: 4, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/4 x7, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_armor_uncommon5, tier: 5, result: mmorpg:stat_soul/family/armor/uncommon, mats: mmorpg:material/mining/5 x8, mmorpg:stone/1 x6, minecraft:iron_boots x1
+- id: stat_soul_family_jewelry_common0, tier: 0, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_common1, tier: 1, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_common2, tier: 2, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_common3, tier: 3, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_common4, tier: 4, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_common5, tier: 5, result: mmorpg:stat_soul/family/jewelry/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x6, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic0, tier: 0, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic1, tier: 1, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic2, tier: 2, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic3, tier: 3, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic4, tier: 4, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/4 x11, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_epic5, tier: 5, result: mmorpg:stat_soul/family/jewelry/epic, mats: mmorpg:material/mining/5 x13, mmorpg:stone/3 x15, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary0, tier: 0, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/0 x2, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary1, tier: 1, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/1 x5, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary2, tier: 2, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/2 x7, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary3, tier: 3, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/3 x10, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary4, tier: 4, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/4 x13, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_legendary5, tier: 5, result: mmorpg:stat_soul/family/jewelry/legendary, mats: mmorpg:material/mining/5 x15, mmorpg:stone/4 x18, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic0, tier: 0, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/0 x6, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic1, tier: 1, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/1 x12, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic2, tier: 2, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/2 x18, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic3, tier: 3, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/3 x24, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic4, tier: 4, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/4 x30, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_mythic5, tier: 5, result: mmorpg:stat_soul/family/jewelry/mythic, mats: mmorpg:material/mining/5 x36, mmorpg:stone/5 x57, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare0, tier: 0, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare1, tier: 1, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/1 x3, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare2, tier: 2, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/2 x5, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare3, tier: 3, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/3 x7, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare4, tier: 4, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/4 x9, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_rare5, tier: 5, result: mmorpg:stat_soul/family/jewelry/rare, mats: mmorpg:material/mining/5 x10, mmorpg:stone/2 x12, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon0, tier: 0, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon1, tier: 1, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon2, tier: 2, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/2 x4, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon3, tier: 3, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/3 x5, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon4, tier: 4, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/4 x7, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_jewelry_uncommon5, tier: 5, result: mmorpg:stat_soul/family/jewelry/uncommon, mats: mmorpg:material/mining/5 x8, mmorpg:stone/1 x9, mmorpg:jewelry/ring/iron x1
+- id: stat_soul_family_offhand_common0, tier: 0, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_common1, tier: 1, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_common2, tier: 2, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_common3, tier: 3, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_common4, tier: 4, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_common5, tier: 5, result: mmorpg:stat_soul/family/offhand/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x4, minecraft:shield x1
+- id: stat_soul_family_offhand_epic0, tier: 0, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_epic1, tier: 1, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_epic2, tier: 2, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_epic3, tier: 3, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_epic4, tier: 4, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/4 x11, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_epic5, tier: 5, result: mmorpg:stat_soul/family/offhand/epic, mats: mmorpg:material/mining/5 x13, mmorpg:stone/3 x9, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary0, tier: 0, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/0 x2, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary1, tier: 1, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/1 x5, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary2, tier: 2, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/2 x7, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary3, tier: 3, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/3 x10, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary4, tier: 4, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/4 x13, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_legendary5, tier: 5, result: mmorpg:stat_soul/family/offhand/legendary, mats: mmorpg:material/mining/5 x15, mmorpg:stone/4 x10, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic0, tier: 0, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/0 x6, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic1, tier: 1, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/1 x12, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic2, tier: 2, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/2 x18, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic3, tier: 3, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/3 x24, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic4, tier: 4, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/4 x30, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_mythic5, tier: 5, result: mmorpg:stat_soul/family/offhand/mythic, mats: mmorpg:material/mining/5 x36, mmorpg:stone/5 x30, minecraft:shield x1
+- id: stat_soul_family_offhand_rare0, tier: 0, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_rare1, tier: 1, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/1 x3, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_rare2, tier: 2, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/2 x5, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_rare3, tier: 3, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/3 x7, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_rare4, tier: 4, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/4 x9, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_rare5, tier: 5, result: mmorpg:stat_soul/family/offhand/rare, mats: mmorpg:material/mining/5 x10, mmorpg:stone/2 x7, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon0, tier: 0, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon1, tier: 1, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon2, tier: 2, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/2 x4, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon3, tier: 3, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/3 x5, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon4, tier: 4, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/4 x7, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_offhand_uncommon5, tier: 5, result: mmorpg:stat_soul/family/offhand/uncommon, mats: mmorpg:material/mining/5 x8, mmorpg:stone/1 x6, minecraft:shield x1
+- id: stat_soul_family_weapon_common0, tier: 0, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/0 x1, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_common1, tier: 1, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/1 x2, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_common2, tier: 2, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/2 x3, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_common3, tier: 3, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/3 x4, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_common4, tier: 4, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/4 x5, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_common5, tier: 5, result: mmorpg:stat_soul/family/weapon/common, mats: mmorpg:material/mining/5 x6, mmorpg:stone/0 x6, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic0, tier: 0, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/0 x2, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic1, tier: 1, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/1 x4, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic2, tier: 2, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/2 x6, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic3, tier: 3, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/3 x8, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic4, tier: 4, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/4 x11, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_epic5, tier: 5, result: mmorpg:stat_soul/family/weapon/epic, mats: mmorpg:material/mining/5 x13, mmorpg:stone/3 x15, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary0, tier: 0, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/0 x2, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary1, tier: 1, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/1 x5, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary2, tier: 2, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/2 x7, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary3, tier: 3, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/3 x10, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary4, tier: 4, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/4 x13, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_legendary5, tier: 5, result: mmorpg:stat_soul/family/weapon/legendary, mats: mmorpg:material/mining/5 x15, mmorpg:stone/4 x18, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic0, tier: 0, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/0 x6, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic1, tier: 1, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/1 x12, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic2, tier: 2, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/2 x18, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic3, tier: 3, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/3 x24, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic4, tier: 4, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/4 x30, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_mythic5, tier: 5, result: mmorpg:stat_soul/family/weapon/mythic, mats: mmorpg:material/mining/5 x36, mmorpg:stone/5 x57, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare0, tier: 0, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/0 x1, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare1, tier: 1, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/1 x3, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare2, tier: 2, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/2 x5, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare3, tier: 3, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/3 x7, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare4, tier: 4, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/4 x9, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_rare5, tier: 5, result: mmorpg:stat_soul/family/weapon/rare, mats: mmorpg:material/mining/5 x10, mmorpg:stone/2 x12, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon0, tier: 0, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/0 x1, mmorpg:stone/1 x9, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon1, tier: 1, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/1 x2, mmorpg:stone/1 x9, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon2, tier: 2, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/2 x4, mmorpg:stone/1 x9, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon3, tier: 3, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/3 x5, mmorpg:stone/1 x9, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon4, tier: 4, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/4 x7, mmorpg:stone/1 x9, minecraft:iron_sword x1
+- id: stat_soul_family_weapon_uncommon5, tier: 5, result: mmorpg:stat_soul/family/weapon/uncommon, mats: mmorpg:material/mining/5 x8, mmorpg:stone/1 x9, minecraft:iron_sword x1
+*/

@@ -1,15 +1,15 @@
 ServerEvents.recipes(event => {
-	event.remove({ output: "mmorpg:stone/1", input: "9x mmorpg:stone/0" });
-	event.remove({ output: "mmorpg:stone/2", input: "9x mmorpg:stone/1" });
-	event.remove({ output: "mmorpg:stone/3", input: "9x mmorpg:stone/2" });
-	event.remove({ output: "mmorpg:stone/4", input: "9x mmorpg:stone/3" });
-	event.remove({ output: "mmorpg:stone/5", input: "9x mmorpg:stone/4" });
+	event.remove({ output: "mmorpg:stone/1", input: "mmorpg:stone/0" });
+	event.remove({ output: "mmorpg:stone/2", input: "mmorpg:stone/1" });
+	event.remove({ output: "mmorpg:stone/3", input: "mmorpg:stone/2" });
+	event.remove({ output: "mmorpg:stone/4", input: "mmorpg:stone/3" });
+	event.remove({ output: "mmorpg:stone/5", input: "mmorpg:stone/4" });
 
-	event.remove({ output: "9x mmorpg:stone/0", input: "mmorpg:stone/1" });
-	event.remove({ output: "9x mmorpg:stone/1", input: "mmorpg:stone/2" });
-	event.remove({ output: "9x mmorpg:stone/2", input: "mmorpg:stone/3" });
-	event.remove({ output: "9x mmorpg:stone/3", input: "mmorpg:stone/4" });
-	event.remove({ output: "9x mmorpg:stone/4", input: "mmorpg:stone/5" });
+	event.remove({ output: "mmorpg:stone/0", input: "mmorpg:stone/1" });
+	event.remove({ output: "mmorpg:stone/1", input: "mmorpg:stone/2" });
+	event.remove({ output: "mmorpg:stone/2", input: "mmorpg:stone/3" });
+	event.remove({ output: "mmorpg:stone/3", input: "mmorpg:stone/4" });
+	event.remove({ output: "mmorpg:stone/4", input: "mmorpg:stone/5" });
 
 	event.shapeless("yyitems:magic_stone_1", [
 		"yyitems:magic_stone_0","yyitems:magic_stone_0","yyitems:magic_stone_0",
@@ -37,11 +37,11 @@ ServerEvents.recipes(event => {
 		"yyitems:magic_stone_4","yyitems:magic_stone_4","yyitems:magic_stone_4"
 	]);
 
-	event.shapeless("9x yyitems:magic_stone_0", "mmorpg:stone/1");
-	event.shapeless("9x yyitems:magic_stone_1", "mmorpg:stone/2");
-	event.shapeless("9x yyitems:magic_stone_2", "mmorpg:stone/3");
-	event.shapeless("9x yyitems:magic_stone_3", "mmorpg:stone/4");
-	event.shapeless("9x yyitems:magic_stone_4", "mmorpg:stone/5");
+	event.shapeless("9x yyitems:magic_stone_0", "yyitems:magic_stone_1");
+	event.shapeless("9x yyitems:magic_stone_1", "yyitems:magic_stone_2");
+	event.shapeless("9x yyitems:magic_stone_2", "yyitems:magic_stone_3");
+	event.shapeless("9x yyitems:magic_stone_3", "yyitems:magic_stone_4");
+	event.shapeless("9x yyitems:magic_stone_4", "yyitems:magic_stone_5");
 
 	event.custom({
 		type: "create:deploying",
@@ -113,43 +113,32 @@ ServerEvents.recipes(event => {
 	event.shapeless("2x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_1"]);
 	event.shapeless("3x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_2"]);
 	event.shapeless("4x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_3"]);
-	event.shapeless("8x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_4"]);
-	event.shapeless("32x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_5"]);
+	event.shapeless("32x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_4"]);
+	event.shapeless("128x mmorpg:stone/0", ["yyitems:magic_stone_0", "yyitems:magic_stone_activator_5"]);
 
-	event.shapeless("1x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_0"]);
-	event.shapeless("2x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_1"]);
-	event.shapeless("3x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_2"]);
+	event.shapeless("1x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_1"]);
+	event.shapeless("2x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_2"]);
 	event.shapeless("4x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_3"]);
-	event.shapeless("8x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_4"]);
-	event.shapeless("32x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_5"]);
+	event.shapeless("16x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_4"]);
+	event.shapeless("64x mmorpg:stone/1", ["yyitems:magic_stone_1", "yyitems:magic_stone_activator_5"]);
 
-	event.shapeless("1x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_0"]);
-	event.shapeless("2x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_1"]);
-	event.shapeless("3x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_2"]);
-	event.shapeless("4x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_3"]);
+	event.shapeless("1x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_2"]);
+	event.shapeless("2x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_3"]);
 	event.shapeless("8x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_4"]);
 	event.shapeless("32x mmorpg:stone/2", ["yyitems:magic_stone_2", "yyitems:magic_stone_activator_5"]);
 
-	event.shapeless("1x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_0"]);
-	event.shapeless("2x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_1"]);
-	event.shapeless("3x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_2"]);
-	event.shapeless("4x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_3"]);
-	event.shapeless("8x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_4"]);
-	event.shapeless("32x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_5"]);
+	event.shapeless("1x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_2"]);
+	event.shapeless("2x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_3"]);
+	event.shapeless("4x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_4"]);
+	event.shapeless("16x mmorpg:stone/3", ["yyitems:magic_stone_3", "yyitems:magic_stone_activator_5"]);
 
-	event.shapeless("1x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_0"]);
-	event.shapeless("2x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_1"]);
-	event.shapeless("3x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_2"]);
-	event.shapeless("4x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_3"]);
-	event.shapeless("8x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_4"]);
-	event.shapeless("32x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_5"]);
+	event.shapeless("1x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_3"]);
+	event.shapeless("2x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_4"]);
+	event.shapeless("8x mmorpg:stone/4", ["yyitems:magic_stone_4", "yyitems:magic_stone_activator_5"]);
 
-	event.shapeless("1x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_0"]);
-	event.shapeless("2x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_1"]);
-	event.shapeless("3x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_2"]);
-	event.shapeless("4x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_3"]);
-	event.shapeless("8x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_4"]);
-	event.shapeless("32x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_5"]);
+	event.shapeless("1x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_3"]);
+	event.shapeless("2x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_4"]);
+	event.shapeless("4x mmorpg:stone/5", ["yyitems:magic_stone_5", "yyitems:magic_stone_activator_5"]);
 });
 
 LootJS.modifiers((event) => {
