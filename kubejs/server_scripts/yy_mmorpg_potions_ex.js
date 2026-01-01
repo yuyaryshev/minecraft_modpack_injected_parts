@@ -37,7 +37,7 @@ const ingredientsByPotion = {
     { tag: "forge:cooked_pork" }
   ],
   "mmorpg:potion/health/0": [
-    { item: "minecraft:tomato" },
+    { item: "#forge:tomato" },
     { item: "minecraft:sweet_berries" }
   ],
   "mmorpg:potion/resource/0": [
@@ -46,8 +46,14 @@ const ingredientsByPotion = {
   ]
 };
 
-function getIngredients(_level, potionType) {
-  return ingredientsByPotion[potionType];
+var fish_replacement = '#forge:cooked_fishes';
+
+function getIngredients(genRound, rarity, potionType) {
+	switch(genRound) {
+		case 1: return [ingredientsByPotion[potionType][0],];
+		case 2: return [ingredientsByPotion[potionType][1],];
+	}
+	return ingredientsByPotion[potionType];
 }
 
 ServerEvents.recipes(event => {	
