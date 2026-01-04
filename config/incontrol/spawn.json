@@ -22,5 +22,56 @@
     "mob": "minecraft:snow_golem",
     "when": "onjoin",
     "result": "deny"
+  },
+  {
+    "mob": ["minecraft:zombie", "minecraft:skeleton"],
+    "dimension": 0,
+    "result": "allow",
+    "maxhostile": 150,
+    "mintime": 13000,
+    "maxtime": 23000,
+    "onjoin": true,
+    "groupcountmin": 4,
+    "groupcountmax": 8,
+    "healthmultiply": 0.7,
+    "damagemultiply": 0.7,
+    "speedmultiply": 0.7,
+    "armorhelmet": {
+      "item": "minecraft:leather_helmet",
+      "chance": 1.0
+    },
+    "armorchest": {
+      "item": "minecraft:leather_chestplate",
+      "chance": 0.2
+    },
+    "armorlegs": {
+      "item": "minecraft:leather_leggings",
+      "chance": 0.2
+    },
+    "armorboots": {
+      "item": "minecraft:leather_boots",
+      "chance": 0.2
+    },
+    "helditem": [
+      {"item": "minecraft:iron_axe", "chance": 0.15},
+      {"item": "minecraft:stone_axe", "chance": 0.15},
+      {"item": "minecraft:wooden_axe", "chance": 0.15},
+      {"item": "minecraft:iron_pickaxe", "chance": 0.15},
+      {"item": "minecraft:stone_pickaxe", "chance": 0.15},
+      {"item": "minecraft:wooden_pickaxe", "chance": 0.15}
+    ],
+    "randomenchanted": false,
+    "seesky": true
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "result": "allow",
+    "dimension": 0,
+    "maxhostile": 150,
+    "helditem": {
+      "item": "minecraft:stone_sword",
+      "chance": 1.0
+    },
+    "randomenchanted": false
   }
 ]
