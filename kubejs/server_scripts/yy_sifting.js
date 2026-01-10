@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
 	  processingTime: 500,
 	  results: [
 		{ chance: 0.005, item: "minecraft:kelp" },
+		{ chance: 0.4, item: "cgs:guano" },
 		{ chance: 0.3, item: "minecraft:seagrass" },
 		{ chance: 0.05, item: "minecraft:tube_coral" },
 		{ chance: 0.05, item: "minecraft:brain_coral" },

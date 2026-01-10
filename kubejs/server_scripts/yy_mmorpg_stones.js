@@ -46,8 +46,8 @@ ServerEvents.recipes(event => {
 	event.custom({
 		type: "create:deploying",
 		ingredients: [
-			{ item: "yyitems:andesite_nugget" },
-			{ item: "create:copper_nugget" }
+			{ item: "yyitems:andesite_ingot" },
+			{ item: "create:copper_ingot" }
 		],
 		results: [
 			{ item: "yyitems:magic_stone_activator_0" }

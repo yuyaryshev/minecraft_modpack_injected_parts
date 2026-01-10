@@ -334,13 +334,14 @@ ServerEvents.recipes(event => {
             event.remove({ input: m.dirtyDust });
             event.remove({ input: m.raw, output:m.createCrushed });
 
+			// "yyitems:raw_andesite_alloy_powder" 
             event.recipes.create.milling(
-				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`}],
+				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},Item.of("yyitems:raw_andesite_alloy_powder").withChance(0.03)],
 				{item: `yyitems:poor_raw_${m.n}`}			
 			).processingTime(300);
 
             event.recipes.create.crushing(
-				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`}],
+				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},Item.of("yyitems:raw_andesite_alloy_powder").withChance(0.05)],
 				{item: `yyitems:poor_raw_${m.n}`}
 			).processingTime(30);
 
@@ -354,8 +355,12 @@ ServerEvents.recipes(event => {
                 {item: m.raw}
             ).processingTime(30);
 
-
-            if (m.nugget) {
+			if(m.n === 'copper') {
+				event.shapeless(m.nugget, [
+					`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,
+					`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,
+				]);
+			} else if (m.nugget) {
 				event.shapeless(m.nugget, [
 					`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,
 					`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,`yyitems:${m.n}_grain`,
@@ -388,7 +393,7 @@ ServerEvents.recipes(event => {
                 ingredients: [{item: `yyitems:${m.n}_grain`}],
                 results: [{
                     fluid: m.fluid,
-                    amount: 2,
+                    amount: 2 * (m.n !== 'copper' ? 1 : 3),
                 }],
                 temperature: 800,
                 time: 50,
@@ -445,9 +450,8 @@ let rArray1;
 
 function rArray(m) {
 	rArray1 = [
-		LootEntry.of(`yyitems:poor_raw_${m.n}`).withChance(99.5), 
-		LootEntry.of(m.raw).withChance(0.1), 
-		LootEntry.of(`yyitems:raw_${m.n}_nugget`).withChance(0.4)
+		LootEntry.of(`yyitems:poor_raw_${m.n}`).withChance(99.8), 
+		LootEntry.of(m.raw).withChance(0.2), 
 	];
 	if(m.n ==='iron') {
 		rArray1.push(`yyitems:inpure_redstone_dust`);

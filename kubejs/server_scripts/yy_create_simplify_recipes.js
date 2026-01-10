@@ -5,8 +5,91 @@ let woodTypes = ["acacia", "birch", "crimson", "dark_oak", "jungle", "oak", "spr
 var incomplete_item;
 
 ServerEvents.recipes(event => {	
+	event.shaped("minecraft:wooden_axe", [
+            'WW',
+            'WS',
+        ],
+        {
+            S:{item:'minecraft:stick'},
+            W:{tag:'minecraft:planks'}
+        }
+    );
+	event.shaped("minecraft:wooden_pickaxe", [
+            'WW',
+            'WS',
+        ],
+        {
+            S:{item:'minecraft:stick'},
+            W:{tag:'minecraft:planks'}
+        }
+    );
+	event.shaped("minecraft:wooden_shovel", [
+            'WW',
+            'WS',
+        ],
+        {
+            S:{item:'minecraft:stick'},
+            W:{tag:'minecraft:planks'}
+        }
+    );
+	event.shaped("minecraft:wooden_sword", [
+            'WW',
+            'WS',
+        ],
+        {
+            S:{item:'minecraft:stick'},
+            W:{tag:'minecraft:planks'}
+        }
+    );
+	event.shaped("minecraft:wooden_hoe", [
+            'WW',
+            'WS',
+        ],
+        {
+            S:{item:'minecraft:stick'},
+            W:{tag:'minecraft:planks'}
+        }
+    );
+	
+	event.shaped("minecraft:compass", [
+            ' A ',
+            'ARA',
+            ' A ',
+        ],
+        {
+            A:{item:'create:andesite_alloy'},
+            R:{item:'minecraft:redstone'}
+        }
+    );
+
+
+	  event.custom(
+		{
+		  "type": "minecraft:crafting_shaped",
+		  "category": "equipment",
+		  "key": {
+			"a": {
+			  "tag": "forge:ingots/copper"
+			},
+			"b": {
+			  "item": "copper_bucket_mod:copper_bucket"
+			}
+		  },
+		  "pattern": [
+			"a a",
+			"aba",
+			"aaa"
+		  ],
+		  "result": {
+			"item": "dew_drop_watering_cans:copper_watering_can"
+		  },
+		  "show_notification": true
+		}
+	  );
+
     event.smelting(`create:andesite_alloy`,`yyitems:raw_andesite_alloy_powder`);
 
+	event.shapeless("minecraft:grass_block", ["minecraft:dirt", "minecraft:grass"]);
 	event.shapeless("yyitems:glass_bottle_form_unfired", ["minecraft:clay_ball", "minecraft:glass_bottle"]).keepIngredient("minecraft:glass_bottle");
 	event.smelting("yyitems:glass_bottle_form", "yyitems:glass_bottle_form_unfired");
 
@@ -403,13 +486,17 @@ ServerEvents.recipes(event => {
 		'minecraft:raw_copper',
 		'createmetallurgy:copper_dust'
 	);
+	
   
 	event.recipes.create.compacting(['minecraft:andesite'], [Fluid.water(100), 'minecraft:cobblestone']);
+	event.recipes.create.compacting(['minecraft:andesite'], [Fluid.water(100), 'minecraft:stone']);
 	event.recipes.create.mixing(['minecraft:dirt'], [Fluid.water(200), 'minecraft:gravel']);
 	event.recipes.create.mixing(['minecraft:clay_ball','minecraft:clay_ball','minecraft:clay_ball','minecraft:clay_ball'], [Fluid.water(200), 'minecraft:dirt']);
 
 	
 	event.remove({ output: 'create_new_age:thorium'});
+	event.shapeless("minecraft:copper_block", ['minecraft:cut_copper']);
+	
 	event.recipes.create.mixing(['create_new_age:radioactive_thorium','create_new_age:thorium'], 
 		['create_new_age:radioactive_thorium','minecraft:cobblestone',Fluid.water(1000)]);
 	
@@ -437,7 +524,7 @@ ServerEvents.recipes(event => {
 
     // Cheaper wood automation
     event.replaceInput({ id: "create:crafting/kinetics/brass_hand" }, "create:brass_sheet", "create:copper_sheet");
-    event.replaceInput({ id: "create:crafting/kinetics/brass_hand" }, "create:electron_tube", "create:cogwheel");
+    event.replaceInput({ output: "create:deployer" }, "create:electron_tube", "create:cogwheel");
 
     event.replaceInput({ output: "cookingforblockheads:toaster" }, "minecraft:iron_trapdoor", "yyitems:andesite_sheet");
     event.remove({ output: "cookingforblockheads:fridge" });
@@ -475,30 +562,68 @@ ServerEvents.recipes(event => {
             processingTime: 100,
         }),
     );
-});
+
+
+ 
+  event.custom(
+    {
+      "type": "create:cutting",
+      "ingredients": [
+        {
+          "item": "ceramics:empty_clay_bucket"
+        },
+        {
+          "tag": "forge:plates/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "createdieselgenerators:mold",
+          "nbt": {
+            "Mold": "createdieselgenerators:bowl"
+          }
+        }
+      ]
+    }
+  );	 
+//	event.stonecutting({ item: 'createdieselgenerators:mold', "nbt": '{Mold:"createdieselgenerators:bowl"}', count: 1, }, ['create:iron_sheet']);
+//	event.stonecutting({ item: 'createdieselgenerators:mold', "nbt": '{Mold:"createdieselgenerators:lines"}', count: 1, }, ['create:iron_sheet']);
+//	event.stonecutting({ item: 'createdieselgenerators:mold', "nbt": '{Mold:"createdieselgenerators:chain"}', count: 1, }, ['create:iron_sheet']);
+//	event.stonecutting({ item: 'createdieselgenerators:mold', "nbt": '{Mold:"createdieselgenerators:bar"}', count: 1, }, ['create:iron_sheet']);
+	event.stonecutting({ item: 'ratatouille:cake_mold',	count: 1, }, ['create:iron_sheet']);
+	event.stonecutting({ item: 'ratatouille:cake_mold', count: 1, }, ['create:iron_sheet']);
+	event.stonecutting({ item: 'ratatouille:popsicle_mold',	count: 1, }, ['create:iron_sheet']);
+	event.stonecutting({ item: 'ratatouille:chocolate_mold', count: 1, }, ['create:iron_sheet']);
+	});
 
 LootJS.modifiers((event) => {
     event
         .addBlockLootModifier(`minecraft:coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 
     event
         .addBlockLootModifier(`minecraft:deepslate_coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 
     event
         .addBlockLootModifier(`deeperdarker:gloomslate_coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 
     event
         .addBlockLootModifier(`undergarden:depthrock_coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 
     event
         .addBlockLootModifier(`deeperdarker:sculk_stone_coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 
     event
         .addBlockLootModifier(`undergarden:shiverstone_coal_ore`)
-        .addLoot("yyitems:raw_andesite_alloy_powder");
+        .addLoot("yyitems:raw_andesite_alloy_powder")
+		.addLoot("yyitems:raw_andesite_alloy_powder");
 });
