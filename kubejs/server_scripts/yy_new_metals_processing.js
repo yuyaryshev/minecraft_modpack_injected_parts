@@ -8,7 +8,8 @@ const meltingRecipeType = useTConstuct?"tconstruct:melting":"createmetallurgy:me
 let firstSelector = true;
 var modid;
 var b;
-var output 
+var output;
+var andesitePowderChance;
 
 const weaponIngots = true;
 const weaponSelectors = [
@@ -34,6 +35,8 @@ const weaponSelectors = [
 const excludeIronAxes = true;
 
 const oreBlocks = [
+	`create:iron_ore`,
+	`create:deepslate_iron_ore`,
 	`minecraft:deepslate_iron_ore`,
 	`undergarden:depthrock_iron_ore`,
 	`undergarden:shiverstone_iron_ore`,
@@ -57,7 +60,9 @@ const materials = [
         dirtyCompanions:["minecraft:redstone"],
 		fluid: moltenModPrefix+"molten_iron",
 		complementBlock:'create:crimsite',
+		complementBlockTag:'create:stone_types/crimsite',
 		cant_be_smelted_from_ore_block: true,
+		complementChance: 0.4,
 	},
 	{
 		mainMetal: true,
@@ -71,7 +76,9 @@ const materials = [
         dirtyCompanions:["minecraft:clay"],
 		fluid: moltenModPrefix+"molten_copper",
 		complementBlock:'create:veridium',
+		complementBlockTag:'create:stone_types/veridium',
 		cant_be_smelted_from_ore_block: true,
+		complementChance: 0.8,
 	},
 	{
 		mainMetal: true,
@@ -80,12 +87,14 @@ const materials = [
 		nugget: "create:zinc_nugget",
         ingot: "create:zinc_ingot",
         createCrushed:"create:crushed_raw_zinc",
+		complementBlock:'create:asurine',
+		complementBlockTag:'create:stone_types/asurine',
         dirtyDust:"createmetallurgy:dirty_zinc_dust",
         metalDust:"createmetallurgy:zinc_dust",
         dirtyCompanions:["minecraft:gunpowder"],
 		fluid: moltenModPrefix+"molten_zinc",
-		complementBlock:'create:asurine',
 		cant_be_smelted_from_ore_block: true,
+		complementChance: 0.3,
 	},
 	{
 		mainMetal: true,
@@ -94,12 +103,14 @@ const materials = [
 		nugget: "minecraft:gold_nugget",
         ingot: "minecraft:gold_ingot",
         createCrushed:"create:crushed_raw_gold",
+		complementBlock:'create:ochrum',
+		complementBlockTag:'create:stone_types/ochrum',
         dirtyDust:"createmetallurgy:dirty_gold_dust",
         metalDust:"createmetallurgy:gold_dust",
         dirtyCompanions:["minecraft:quartz"],
 		fluid: moltenModPrefix+"molten_gold",
-		complementBlock:'create:ochrum',
 		cant_be_smelted_from_ore_block: true,
+		complementChance: 0.2,
 	},
 	{
 		n: "redstone",
@@ -164,20 +175,39 @@ if(useOccultism) {
 }
 
 
-
-ServerEvents.recipes(event => {
-
-    // Later ring of repair
-    // event.replaceInput({ id: "ring_of_repair:ring_of_repair" }, "minecraft:iron_ingot", "minecraft:netherite_block");
-
-    // enchanting_table - move to late game
-    event.replaceInput({ id: "minecraft:enchanting_table" }, "minecraft:diamond", "minecraft:diamond_block");
-
-    // Later ender eye
-    event.remove({ id: "minecraft:ender_eye" });
+function diamondsChanges(event) {
 	event.remove({ id: "yyinfiniteoreveins:diamonds_from_dust" });
+    event.recipes.create.compacting('minecraft:diamond', [
+        'yyitems:diamond_dust',
+        'minecraft:quartz'
+    ]).heated();
+}
+
+function enchantingTableChanges(event) {
+     // enchanting_table - move to late game
+    event.replaceInput({ id: "minecraft:enchanting_table" }, "minecraft:diamond", "minecraft:diamond_block");
+}
+
+
+function netheriteChanges(event) {
 	event.remove({ id: "minecraft:netherite_ingot" });
+	event.replaceInput({ id: "createmetallurgy:alloying/netherite" },"minecraft:netherite_scrap", "yyitems:inpure_netherite_dust");
 	
+    // inpure_netherite_dust
+    event.recipes.create.mixing(
+        ["yyitems:inpure_netherite_dust"],
+        ["yyitems:adv_cleaning_dust", "minecraft:netherite_scrap" ]
+    )
+        .heated()
+        .processingTime(400);
+
+    // netherite_ingot
+    event.blasting("minecraft:netherite_ingot", "yyitems:inpure_netherite_dust");
+}
+
+function cantSmeltOreBlocksToIngots(event) {
+	
+	event.remove({ input:"#forge/zinc_ores", output: 'create:zinc_ingot'});
 	for(let m of materials.filter(m=>m.mainMetal)){
 		for(let b0 of oreBlocks){
 			if(m.cant_be_smelted_from_ore_block) {
@@ -186,12 +216,9 @@ ServerEvents.recipes(event => {
 				event.remove({ input:b, output: output});
 			}
 		}		
-	}	
-	event.remove({ input:"#forge/zinc_ores", output: 'create:zinc_ingot'});
-	//event.remove({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'});
-	event.replaceOutput({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'}, "minecraft:gold_nugget", "minecraft:redstone");
-
-	// 
+	}
+	
+		// 
 	// event.remove({ id: "minecraft:redstone_from_smelting_redstone_ore" });
 	// event.remove({ id: "minecraft:redstone_from_smelting_deepslate_redstone_ore" });
 	// event.remove({ id: "deeperdarker:redstone_from_smelting_sculk_stone_redstone_ore" });
@@ -206,29 +233,90 @@ ServerEvents.recipes(event => {
 	// event.remove({ id: "" });
 	
 	//event.remove({ id: "create:zinc_ingot_from_ore" });
-	
+}
 
-	
-	event.replaceInput({ id: "createmetallurgy:alloying/netherite" },"minecraft:netherite_scrap", "yyitems:inpure_netherite_dust");
-	
-	event.replaceOutput({ id: "create:splashing/gravel" }, "minecraft:iron_nugget", "minecraft:quartz");
-	
+
+function changeCreateCrushingForOresAndCrimsiteLike(event) {
 	for(let m of materials.filter(m=>m.mainMetal)){
 		event.remove({ input: m.complementBlock, type:"create:crushing" });
-		event.remove({ input: `#create:stone_types/${m.complementBlock.split(":")[1]}`, type:"create:crushing" });
-	}
+		event.remove({ input: m.complementBlockTag, type:"create:crushing" });
+		
+		andesitePowderChance = 1-m.complementChance;
+		if(andesitePowderChance < 0.1) {
+			andesitePowderChance = 0.1;
+		}
+		
+		event.recipes.create.milling(
+			[
+				Item.of(m.createCrushed).withChance(m.complementChance/2), 
+				Item.of(m.nugget).withChance(m.complementChance/2), 
+				Item.of("yyitems:raw_andesite_alloy_powder").withChance(andesitePowderChance/2)
+			],
+			{tag: m.complementBlockTag}
+		).processingTime(200).id(m.n+'_milling1');;
+		
+		event.recipes.create.milling(
+			[
+				Item.of(m.createCrushed).withChance(m.complementChance/2), 
+				Item.of(m.nugget).withChance(m.complementChance/2), 
+				Item.of("yyitems:raw_andesite_alloy_powder").withChance(andesitePowderChance/2)
+			],
+			{item: m.complementBlock}
+		).processingTime(200).id(m.n+'_milling2');
+		
+		event.recipes.create.crushing(
+			[
+				Item.of(m.createCrushed).withChance(m.complementChance), 
+				Item.of(m.nugget).withChance(m.complementChance), 
+				Item.of("yyitems:raw_andesite_alloy_powder").withChance(andesitePowderChance)
+			],
+			{tag: m.complementBlockTag}
+		).processingTime(30).id(m.n+'_crushing1');
+		
+		event.recipes.create.crushing(
+			[
+				Item.of(m.createCrushed).withChance(m.complementChance), 
+				Item.of(m.nugget).withChance(m.complementChance), 
+				Item.of("yyitems:raw_andesite_alloy_powder").withChance(andesitePowderChance)
+			],
+			{item: m.complementBlock}
+		).processingTime(30).id(m.n+'_crushing2');
+	}		
+}
 
+function changeCreateCrushingForOresAndCrimsiteLike2(event) {
+	event.forEachRecipe({ type: "create:crushing" }, recipe => {
+		const json = recipe.json;
+		// TBD not finished
+	})
+}
+  
+  
+function changeEnterEye(event) {
+	// Later ender eye
+	event.remove({ id: "minecraft:ender_eye" });
     event.shapeless("minecraft:ender_eye", ["minecraft:ender_pearl",
       // "tconstruct:necrotic_bone",
         "minecraft:netherite_block",
     ]);
+}
 
+
+function cleanerRecipes(event) {
     // cleaning_dust
     event.recipes.create.mixing(
         ["4x yyitems:cleaning_dust"],
         ["ceramics:unfired_porcelain", '#minecraft:coals']
     )
         .processingTime(600);
+
+	// adv_cleaning_dust
+    event.recipes.create.mixing(
+        ["createmetallurgy:coke"],
+        ['#minecraft:coals', { fluid: "yyitems:molten_cleaner", amount: 10 }]
+    )
+        .heated()
+        .processingTime(50);
 
     event.custom({
         type: meltingRecipeType,
@@ -251,11 +339,6 @@ ServerEvents.recipes(event => {
         .processingTime(1200);
 		
 
-    event.recipes.create.compacting('minecraft:diamond', [
-        'yyitems:diamond_dust',
-        'minecraft:quartz'
-    ]).heated();
-		
     event.custom({
         type: meltingRecipeType,
         ingredients: [{ item: "yyitems:adv_cleaning_dust" }],
@@ -267,18 +350,24 @@ ServerEvents.recipes(event => {
         time: 50,
         //heatRequirement:m.heatRequirement,
     });
+}
 
-    // inpure_netherite_dust
-    event.recipes.create.mixing(
-        ["yyitems:inpure_netherite_dust"],
-        ["yyitems:adv_cleaning_dust", "minecraft:netherite_scrap" ]
-    )
-        .heated()
-        .processingTime(400);
-
-    // netherite_ingot
-    event.blasting("minecraft:netherite_ingot", "yyitems:inpure_netherite_dust");
-
+ServerEvents.recipes(event => {
+	enchantingTableChanges(event);
+	netheriteChanges(event);
+	diamondsChanges(event);
+	changeEnterEye(event);
+	cleanerRecipes(event);
+	// cantSmeltOreBlocksToIngots(event);
+	changeCreateCrushingForOresAndCrimsiteLike(event);
+	
+    // Later ring of repair
+    // event.replaceInput({ id: "ring_of_repair:ring_of_repair" }, "minecraft:iron_ingot", "minecraft:netherite_block");
+	
+	//event.remove({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'});
+	event.replaceOutput({ input:"minecraft:red_sand", output: 'minecraft:gold_nugget'}, "minecraft:gold_nugget", "minecraft:redstone");
+	event.replaceOutput({ id: "create:splashing/gravel" }, "minecraft:iron_nugget", "minecraft:quartz");
+	
     if(weaponIngots) {
         // Weapon ingots
         event.recipes.create.pressing('yyitems:weapon_iron_ingot',"minecraft:iron_block");
@@ -296,33 +385,7 @@ ServerEvents.recipes(event => {
         }
     }
 
-    // adv_cleaning_dust
-    event.recipes.create.mixing(
-        ["createmetallurgy:coke"],
-        ['#minecraft:coals', { fluid: "yyitems:molten_cleaner", amount: 10 }]
-    )
-        .heated()
-        .processingTime(50);
 
-
-    // Cheaper drawers
-    event.replaceInput({ id: "storagedrawers:obsidian_storage_upgrade" }, "minecraft:obsidian", "minecraft:copper_ingot");
-    event.replaceInput({ id: "storagedrawers:iron_storage_upgrade" }, "minecraft:iron_ingot", "create:andesite_alloy");
-    event.replaceInput({ id: "storagedrawers:gold_storage_upgrade" }, "minecraft:gold_ingot", "minecraft:iron_ingot");
-    event.replaceInput({ id: "storagedrawers:diamond_storage_upgrade" }, "minecraft:diamond", "minecraft:gold_ingot");
-    event.replaceInput({ id: "storagedrawers:emerald_storage_upgrade" }, "minecraft:emerald", "create:brass_ingot");
-    event.replaceInput({ mod: "storagedrawers", id: /controller/ }, "minecraft:comparator", "minecraft:copper_ingot");
-    event.replaceInput({ mod: "storagedrawers", id: /controller/ }, "minecraft:diamond", "minecraft:copper_ingot");
-    event.replaceInput({ mod: "storagedrawers", id: /controller/ }, "minecraft:diamond", "minecraft:copper_ingot");
-    event.replaceInput({ mod: "storagedrawers", id: /controller/ }, "minecraft:gold_ingot", "minecraft:copper_ingot");
-    event.replaceInput({ mod: "storagedrawers", id: /compacting/ }, "minecraft:piston", "minecraft:cobblestone");
-    event.replaceInput({ mod: "storagedrawers", id: /compacting/ }, "minecraft:stone", "minecraft:cobblestone");
-    event.replaceInput({ mod: "storagedrawers", id: /compacting/ }, "minecraft:iron_ingot", "minecraft:cobblestone");
-    event.replaceInput({ id: "storagedrawers:drawer_key" }, "minecraft:gold_ingot", "minecraft:copper_ingot");
-    event.replaceInput({ id: "storagedrawers:drawer_key" }, "minecraft:gold_nugget", "create:copper_nugget");
-    event.replaceInput({ id: "storagedrawers:quantify_key" }, "minecraft:writable_book", "minecraft:book");
-    event.replaceInput({ id: "storagedrawers:concealment_key" }, "minecraft:ender_eye", "create:copper_nugget");
-    event.replaceInput({ id: "reliquary:handgun" }, "minecraft:iron_ingot", "minecraft:netherite_block");
 		
     for (const m of materials) {
         if (isMetal(m)) {
@@ -330,30 +393,19 @@ ServerEvents.recipes(event => {
             // event.remove({ type: 'minecraft:blasting', output: m.ingot });
             // event.remove({ output: m.createCrushed});
 
-            event.remove({ input: m.createCrushed });
-            event.remove({ input: m.dirtyDust });
-            event.remove({ input: m.raw, output:m.createCrushed });
+            //event.remove({ input: m.createCrushed });
+            //event.remove({ input: m.dirtyDust });
+            //event.remove({ input: m.raw, output:m.createCrushed });
 
-			// "yyitems:raw_andesite_alloy_powder" 
-            event.recipes.create.milling(
-				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},Item.of("yyitems:raw_andesite_alloy_powder").withChance(0.03)],
-				{item: `yyitems:poor_raw_${m.n}`}			
-			).processingTime(300);
-
-            event.recipes.create.crushing(
-				[{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},{item: `yyitems:raw_${m.n}_nugget`},Item.of("yyitems:raw_andesite_alloy_powder").withChance(0.05)],
-				{item: `yyitems:poor_raw_${m.n}`}
-			).processingTime(30);
-
-            event.recipes.create.milling(
-                `27x yyitems:raw_${m.n}_nugget`,
-                {item: m.raw}
-            ).processingTime(300);
-
-            event.recipes.create.crushing(
-                `32x yyitems:raw_${m.n}_nugget`,
-                {item: m.raw}
-            ).processingTime(30);
+        //  event.recipes.create.milling(
+		//		[{item: m.createCrushed}, Item.of(m.createCrushed).withChance(0.2), Item.of("yyitems:raw_andesite_alloy_powder").withChance(1.00)],
+		//		{item: m.raw}			
+		//	).processingTime(300);
+        //
+        //    event.recipes.create.crushing(
+		//		[Item.of(m.createCrushed),Item.of(m.createCrushed).withChance(0.5), Item.of("yyitems:raw_andesite_alloy_powder").withChance(1.00), Item.of("yyitems:raw_andesite_alloy_powder").withChance(0.5)],
+		//		{item: m.raw}
+		//	).processingTime(30);
 
 			if(m.n === 'copper') {
 				event.shapeless(m.nugget, [
@@ -368,13 +420,13 @@ ServerEvents.recipes(event => {
 				]);
             }
 
-            event.smelting(`1x yyitems:${m.n}_grain`, `yyitems:poor_raw_${m.n}`).id(`kubejs:${m.n}_sm1`);
-            event.blasting(`3x yyitems:${m.n}_grain`, `yyitems:poor_raw_${m.n}`).id(`kubejs:${m.n}_bl1`);
+            event.smelting( Item.of(m.ingot), m.createCrushed).id(`kubejs:${m.n}_sm1`);				
+            event.blasting( Item.of(m.ingot).withChance(1.5), m.createCrushed).id(`kubejs:${m.n}_bl1`);				
+			
+			event.smelting(`3x yyitems:${m.n}_grain`, `yyitems:raw_${m.n}_nugget`).id(`kubejs:${m.n}_sm3`);
+            event.blasting(`5x yyitems:${m.n}_grain`, `yyitems:raw_${m.n}_nugget`).id(`kubejs:${m.n}_bl3`);
 
-            // 1 RawIron = 1 ingot = 9 nuggets = 9*9 grains = 9*9/3 nuggets = 27 nuggets
-            event.smelting(`3x yyitems:${m.n}_grain`, `yyitems:raw_${m.n}_nugget`).id(`kubejs:${m.n}_sm2`);
-            event.blasting(`5x yyitems:${m.n}_grain`, `yyitems:raw_${m.n}_nugget`).id(`kubejs:${m.n}_bl2`);
-        } else {
+		} else {
 			event.recipes.create.milling(
 				[{item: m.inpureDust}],
 				{item: `yyitems:poor_raw_${m.n}`}			
@@ -388,26 +440,26 @@ ServerEvents.recipes(event => {
 
 
         if (!m.washingResults) {
-            event.custom({
-                type: meltingRecipeType,
-                ingredients: [{item: `yyitems:${m.n}_grain`}],
-                results: [{
-                    fluid: m.fluid,
-                    amount: 2 * (m.n !== 'copper' ? 1 : 3),
-                }],
-                temperature: 800,
-                time: 50,
-				//heatRequirement:m.heatRequirement,
-            });
-
-            event.custom({
-                type: meltingRecipeType,
-                ingredients: [{item: `yyitems:raw_${m.n}_nugget`}],
-                results: [{fluid: m.fluid, amount: 16}],
-                temperature: 800,
-                time: 150,
-				//heatRequirement:m.heatRequirement,
-            });
+           event.custom({
+               type: meltingRecipeType,
+               ingredients: [{item: m.createCrushed}],
+               results: [{
+                   fluid: m.fluid,
+                   amount: 90*2,
+               }],
+               temperature: 800,
+               time: 50,
+			//heatRequirement:m.heatRequirement,
+           });
+// CHG7
+// CHG7           event.custom({
+// CHG7               type: meltingRecipeType,
+// CHG7               ingredients: [{item: `yyitems:raw_${m.n}_nugget`}],
+// CHG7               results: [{fluid: m.fluid, amount: 16}],
+// CHG7               temperature: 800,
+// CHG7               time: 150,
+// CHG7				//heatRequirement:m.heatRequirement,
+// CHG7		});
         } else {
             event.recipes.create.splashing(
 				m.washingResults.map((it) => (Item.of(it.n).withChance(it.p))),
@@ -445,43 +497,47 @@ ServerEvents.recipes(event => {
 
 
 
-let blk;
-let rArray1;
+//let blk;
+//let rArray1;
+//
+//function rArray(m) {
+//	rArray1 = [
+//		LootEntry.of(m.raw)
+//		//.withChance(99.8), 
+//		//LootEntry.of(m.raw).withChance(0.2), 
+//	];
+//	if(m.n ==='iron') {
+//		rArray1.push(`yyitems:inpure_redstone_dust`);
+//	}
+//	
+//	return rArray1;
+//}
 
-function rArray(m) {
-	rArray1 = [
-		LootEntry.of(`yyitems:poor_raw_${m.n}`).withChance(99.8), 
-		LootEntry.of(m.raw).withChance(0.2), 
-	];
-	if(m.n ==='iron') {
-		rArray1.push(`yyitems:inpure_redstone_dust`);
-	}
-	
-	return rArray1;
-}
-
-LootJS.modifiers((event) => {
-	for(let m of materials.filter(m=>m.mainMetal)){
-		for(let b0 of oreBlocks){
-			blk=b0.split('iron').join(m.n);
-			event
-				.addBlockLootModifier(blk)
-				.removeLoot(ItemFilter.ALWAYS_TRUE)
-				.addWeightedLoot(
-					[20, 40],
-					rArray(m)
-				).survivesExplosion();
-		}
-
-		event
-			.addBlockLootModifier(m.complementBlock)
-			.removeLoot(ItemFilter.ALWAYS_TRUE)
-			.addWeightedLoot(
-				[20, 40],
-				rArray(m)
-			).survivesExplosion();
-	}
-});
+//LootJS.modifiers((event) => {
+//	for(let m of materials.filter(m=>m.mainMetal)){
+//		for(let b0 of oreBlocks){
+//			if(m.n === 'copper') {
+//				continue;
+//			}
+//			blk=b0.split('iron').join(m.n);
+//			event
+//				.addBlockLootModifier(blk)
+//				.removeLoot(ItemFilter.ALWAYS_TRUE)
+//				.addWeightedLoot(
+//					[1, 1],
+//					rArray(m)
+//				).survivesExplosion();
+//		}
+//
+//		event
+//			.addBlockLootModifier(m.complementBlock)
+//			.removeLoot(ItemFilter.ALWAYS_TRUE)
+//			.addWeightedLoot(
+//				[1, 1],
+//				rArray(m)
+//			).survivesExplosion();
+//	}
+//});
 
 //  pool.survivesExplosion()
 

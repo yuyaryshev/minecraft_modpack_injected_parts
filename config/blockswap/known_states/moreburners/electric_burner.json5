@@ -82,5 +82,21 @@ to make editing this file much easier.
 			"blaze": "seething"
 		},
 		"Name": "moreburners:electric_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"upgraded": "true",
+			"blaze": "low"
+		},
+		"Name": "moreburners:electric_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"upgraded": "false",
+			"blaze": "low"
+		},
+		"Name": "moreburners:electric_burner"
 	}
 ]

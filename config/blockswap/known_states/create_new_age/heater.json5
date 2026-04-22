@@ -38,5 +38,12 @@ to make editing this file much easier.
 			"blaze": "seething"
 		},
 		"Name": "create_new_age:heater"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"blaze": "low"
+		},
+		"Name": "create_new_age:heater"
 	}
 ]

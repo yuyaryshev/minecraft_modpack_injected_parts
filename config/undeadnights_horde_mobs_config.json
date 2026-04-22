@@ -1,19 +1,19 @@
 {
   "configVariant": 1,
   "maxWaveSize": 15,
-  "defaultMobId": "undeadnights:horde_zombie",
+  "defaultMobId": "minecraft:zombie",
   "extraSpawnInfo": "none",
   "hordeMobs": [
     {
-      "mobId": "undeadnights:elite_zombie",
+      "mobId": "minecraft:skeleton",
       "spawnChance": "3",
       "extraSpawnInfo": "none"
     },
     {
-      "mobId": "undeadnights:demolition_zombie",
+      "mobId": "minecraft:zombie",
       "spawnChance": "6",
-      "extraSpawnInfo": "tnt:5"
+      "extraSpawnInfo": "none"
     }
   ],
-  "internalConfigVersion": 1
+  "internalConfigVersion": 2
 }

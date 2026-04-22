@@ -96,6 +96,24 @@ to make editing this file much easier.
 		// Properties define the state of this block/fluid.
 		"Properties": {
 			"lit": "true",
+			"blaze": "low",
+			"axis": "x"
+		},
+		"Name": "createdieselgenerators:burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"lit": "false",
+			"blaze": "low",
+			"axis": "x"
+		},
+		"Name": "createdieselgenerators:burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"lit": "true",
 			"blaze": "none",
 			"axis": "z"
 		},
@@ -178,6 +196,24 @@ to make editing this file much easier.
 		"Properties": {
 			"lit": "false",
 			"blaze": "seething",
+			"axis": "z"
+		},
+		"Name": "createdieselgenerators:burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"lit": "true",
+			"blaze": "low",
+			"axis": "z"
+		},
+		"Name": "createdieselgenerators:burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"lit": "false",
+			"blaze": "low",
 			"axis": "z"
 		},
 		"Name": "createdieselgenerators:burner"

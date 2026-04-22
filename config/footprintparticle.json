@@ -6,7 +6,7 @@
   "wetDuration": 10,
   "watermarkAlpha": 0.4,
   "footprintAlpha": 0.7,
-  "footprintSize": 0.15625,
+  "footprintSize": 1,
   "canGenWhenInvisible": true,
   "applyBlocks": [
     "#minecraft:wool"

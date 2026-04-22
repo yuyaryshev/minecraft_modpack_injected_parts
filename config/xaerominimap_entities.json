@@ -5,7 +5,11 @@
   "excludeMode": "ONLY",
   "excludeList": [
     "minecraft:glow_item_frame",
-    "minecraft:item_frame"
+    "minecraft:item_frame",
+    "lilis_lucky_lures:floating_debris",
+    "lilis_lucky_lures:floating_books",
+    "lilis_lucky_lures:river_fish_pool",
+    "lilis_lucky_lures:ocean_fish_pool"
   ],
   "name": "gui.xaero_entity_category_root",
   "protection": true,

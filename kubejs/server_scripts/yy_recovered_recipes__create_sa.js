@@ -60,9 +60,7 @@ ServerEvents.recipes(event => {
     ingredient: { tag: "forge:plates/copper" },
     loops: 3,
     results: [
-      { item: "create_sa:hydraulic_engine", chance: 120.0 },
-      { item: "create:copper_sheet", chance: 8.0 },
-      { item: "create:andesite_alloy", chance: 4.0 }
+      { item: "create_sa:hydraulic_engine" },
     ],
     sequence: [
       {
@@ -93,9 +91,7 @@ ServerEvents.recipes(event => {
     ingredient: { item: "create:andesite_alloy" },
     loops: 3,
     results: [
-      { item: "create_sa:heat_engine", chance: 120.0 },
-      { item: "create:zinc_nugget", chance: 8.0 },
-      { item: "create:andesite_alloy", chance: 4.0 }
+      { item: "create_sa:heat_engine" },
     ],
     sequence: [
       {

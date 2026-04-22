@@ -137,7 +137,8 @@
       "crafttoexile2-tristram.g.akliz.net": "https://api.mcsrvstat.us/icon/crafttoexile2-tristram.g.akliz.net",
       "crafttoexile2-pts-1.g.akliz.net": "https://api.mcsrvstat.us/icon/crafttoexile2-pts-1.g.akliz.net",
       "localhost": "https://api.mcsrvstat.us/icon/localhost",
-      "212.22.85.143": "https://api.mcsrvstat.us/icon/212.22.85.143"
+      "212.22.85.143": "https://api.mcsrvstat.us/icon/212.22.85.143",
+      "yuri-desktop": "https://api.mcsrvstat.us/icon/yuri-desktop"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",

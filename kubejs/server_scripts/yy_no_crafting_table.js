@@ -5,7 +5,9 @@ ServerEvents.recipes(event => {
 	event.remove(		{ 
 			output: /crafting_table/,
 		});
-	
+	event.replaceInput({ input: "minecraft:crafting_table" }, "minecraft:crafting_table", "yy_mechanical_workbench:mechanical_workbench");
+
+		
 	  event.custom(
 		{
 		  "type": "minecraft:crafting_shaped",

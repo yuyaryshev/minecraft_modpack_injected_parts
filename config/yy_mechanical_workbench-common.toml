@@ -14,7 +14,7 @@
 	#.
 	#Rotations consumed per craft.
 	#Range: 1 ~ 100000
-	rotationsPerCraft = 20
+	rotationsPerCraft = 5
 	#.
 	#FE converted per rotation.
 	#Range: 1 ~ 100000
@@ -29,5 +29,5 @@
 	#.
 	#Stress impact while charging (per RPM). Set to 0 to disable.
 	#Range: 0.0 ~ 1024.0
-	stressImpact = 16.0
+	stressImpact = 4.0
 

@@ -162,5 +162,37 @@ to make editing this file much easier.
 			"blaze": "seething"
 		},
 		"Name": "create:blaze_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "north",
+			"blaze": "low"
+		},
+		"Name": "create:blaze_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "south",
+			"blaze": "low"
+		},
+		"Name": "create:blaze_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "west",
+			"blaze": "low"
+		},
+		"Name": "create:blaze_burner"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"facing": "east",
+			"blaze": "low"
+		},
+		"Name": "create:blaze_burner"
 	}
 ]

@@ -1,24 +1,24 @@
 {
   "dynamicScaling": {
     "dynamicScalingEnabled": false,
-    "healthScalePerPlayer": 0.05,
-    "damageScalePerPlayer": 0.05,
+    "healthScalePerPlayer": 0.00,
+    "damageScalePerPlayer": 0.00,
     "speedScalePerPlayer": 0.0,
     "armorScalePerPlayer": 0.0,
     "daysBetweenScaleIncreases": 10.0,
-    "daysHealthScaleIncrease": 0.05,
-    "daysDamageScaleIncrease": 0.05,
+    "daysHealthScaleIncrease": 0.00,
+    "daysDamageScaleIncrease": 0.00,
     "daysSpeedScaleIncrease": 0.0,
     "daysArmorScaleIncrease": 0.0,
-    "maxHealthScale": 2.0,
-    "maxDamageScale": 2.0,
-    "maxSpeedScale": 2.0,
-    "maxArmorScale": 2.0
+    "maxHealthScale": 1.5,
+    "maxDamageScale": 0.7,
+    "maxSpeedScale": 0.7,
+    "maxArmorScale": 0.3
   },
   "difficultyLevels": [
     {
       "difficultyName": "Level 1",
-      "minStartDay": 0,
+      "minStartDay": 15,
       "maxStartDay": 0,
       "chanceForDifficultyLevelSwitch": 100,
       "difficultySettingsHordeNights": {
@@ -28,15 +28,15 @@
         "cooldownBetweenWaves": 45,
         "chanceForAdditionalWave": 7,
         "allDayLongHordeNights": false,
-        "maxHordesPerHordeNight": 0,
+        "maxHordesPerHordeNight": 2,
         "numberOfPlayersToGetHordePerHordeEvent": 5
       },
       "difficultySettingsHordeMobs": {
         "updateHordeMobAttributes": false,
         "updateAttributesOfThirdPartyMobs": false,
         "healthAttributeScaleFactor": 1.0,
-        "damageAttributeScaleFactor": 1.0,
-        "speedAttributeScaleFactor": 1.0,
+        "damageAttributeScaleFactor": 0.7,
+        "speedAttributeScaleFactor": 0.7,
         "armorAttributeScaleFactor": 1.0,
         "hordeMobsTrackingRange": 128.0,
         "hordeZombiesBurnInTheSun": false,

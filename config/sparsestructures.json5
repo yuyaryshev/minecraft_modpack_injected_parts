@@ -19,11 +19,11 @@
     // example of the mansion being doubled in rarity (the mod's default)
 	{
 	  "structure": "aquamirae:ice_maze",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "aquamirae:outpost",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "aquamirae:shelter",
@@ -47,11 +47,11 @@
 	},
 	{
 	  "structure": "betterdeserttemples:desert_temples",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterdungeons:skeleton_dungeons",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterdungeons:small_dungeons",
@@ -63,35 +63,35 @@
 	},
 	{
 	  "structure": "betterdungeons:spider_dungeons",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterdungeons:zombie_dungeons",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterfortresses:fortress",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterjungletemples:jungle_temples",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betteroceanmonuments:ocean_monument",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterstrongholds:stronghold",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterwitchhuts:witch_circle",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "betterwitchhuts:witch_hut",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "biomeswevegone:aspen_manors",
@@ -135,15 +135,15 @@
 	},
 	{
 	  "structure": "blue_skies:everbright_blinding_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "blue_skies:everdawn_blinding_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "blue_skies:frozen_bunker",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "blue_skies:gatekeeper_house",
@@ -151,11 +151,11 @@
 	},
 	{
 	  "structure": "blue_skies:nature_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "blue_skies:poison_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "blue_skies:village",
@@ -175,15 +175,15 @@
 	},
 	{
 	  "structure": "born_in_chaos_v1:dark_tower_forest",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:dark_tower_plain",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:dark_tower_taiga",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:farm",
@@ -195,139 +195,139 @@
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_2003wise",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_2_dling",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_darktitan",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_derivas",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_euthymia",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_feral",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_fubuki_banzai",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_memesus",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_mike_and_rory",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_orion",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_petasi",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:grave_somfunambulist",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:gravecarrionexe",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:infernal_pumpkin",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:mound_of_hounds",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:observation_tower_forest",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "born_in_chaos_v1:observation_tower_plains",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "bosses_of_mass_destruction:gauntlet_arena",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "bosses_of_mass_destruction:lich_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "bosses_of_mass_destruction:obsidilith_arena",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "bosses_of_mass_destruction:void_blossom",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "createmechanicalcompanion:illager_workshop",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "deeperdarker:ancient_temple",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_arise:major_structures",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_arise:minor_structures",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_arise_seven_seas:minor_structures",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:black_citadel",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:castle",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:deep_crypt",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:desert_temple",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:desert_tomb",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:druid_circle",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:dungeon_variant",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:elders_temple",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:fishing_ship",
@@ -339,19 +339,19 @@
 	},
 	{
 	  "structure": "dungeons_enhanced:hay_storage",
-	  "factor": 1
+	  "factor": 8
 	},
 	{
 	  "structure": "dungeons_enhanced:ice_pit",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:jungle_monument",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:large_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:miners_house",
@@ -359,7 +359,7 @@
 	},
 	{
 	  "structure": "dungeons_enhanced:monster_maze",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:mushroom_house",
@@ -367,7 +367,7 @@
 	},
 	{
 	  "structure": "dungeons_enhanced:pillager_camp",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:pirate_ship",
@@ -375,35 +375,35 @@
 	},
 	{
 	  "structure": "dungeons_enhanced:ruined_building",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:stables",
-	  "factor": 1
+	  "factor": 8
 	},
 	{
 	  "structure": "dungeons_enhanced:sunken_shrine",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:tall_witch_hut",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:tower_of_the_undead",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:tree_house",
-	  "factor": 1
+	  "factor": 8
 	},
 	{
 	  "structure": "dungeons_enhanced:watch_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "dungeons_enhanced:witch_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "endersdelight:end_house",
@@ -463,43 +463,43 @@
 	},
 	{
 	  "structure": "explorify:watchtowers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "friendsandfoes:citadel",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "friendsandfoes:iceologer_cabin",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "friendsandfoes:illusioner_shack",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "friendsandfoes:illusioner_training_grounds",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "illagerinvasion:firecaller_hut",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "illagerinvasion:illager_fort",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "illagerinvasion:illusioner_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "illagerinvasion:labyrinth",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "illagerinvasion:sorcerer_hut",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "kobolds:kobold_den",
@@ -511,7 +511,7 @@
 	},
 	{
 	  "structure": "masiks_puzzle_dungeon:start",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mes:astral_hideaway",
@@ -543,7 +543,7 @@
 	},
 	{
 	  "structure": "mes:enderwatch_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mes:endscraps",
@@ -563,7 +563,7 @@
 	},
 	{
 	  "structure": "mes:phantom_citadel",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mes:placid_prairie",
@@ -599,7 +599,7 @@
 	},
 	{
 	  "structure": "minecraft:jungle_temples",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "minecraft:mineshafts",
@@ -607,7 +607,7 @@
 	},
 	{
 	  "structure": "minecraft:nether_complexes",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "minecraft:nether_fossils",
@@ -615,7 +615,7 @@
 	},
 	{
 	  "structure": "minecraft:ocean_monuments",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "minecraft:ocean_ruins",
@@ -623,7 +623,7 @@
 	},
 	{
 	  "structure": "minecraft:pillager_outposts",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "minecraft:ruined_portals",
@@ -635,7 +635,7 @@
 	},
 	{
 	  "structure": "minecraft:swamp_huts",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "minecraft:trail_ruins",
@@ -647,7 +647,7 @@
 	},
 	{
 	  "structure": "minecraft:woodland_mansions",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mns:circle_blackstone",
@@ -659,7 +659,7 @@
 	},
 	{
 	  "structure": "mns:grave_yard",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mns:large_blackstone_pillars",
@@ -715,7 +715,7 @@
 	},
 	{
 	  "structure": "mns:small_nether_brick",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:smoking_shrine",
@@ -723,31 +723,31 @@
 	},
 	{
 	  "structure": "mns:very_small_blackstone",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_blackstone_2",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_blackstone_3",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_blackstone_4",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_nether_brick",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_nether_brick_2",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:very_small_nether_brick_3",
-	  "factor": 2
+	  "factor": 1
 	},
 	{
 	  "structure": "mns:warped_pool",
@@ -755,15 +755,15 @@
 	},
 	{
 	  "structure": "moresnifferflowers:dessert_sniffer_temple",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "moresnifferflowers:snow_sniffer_temple",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mowziesmobs:frostmaw_spawns",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "mowziesmobs:monasteries",
@@ -775,7 +775,7 @@
 	},
 	{
 	  "structure": "mowziesmobs:wrought_chambers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "outer_end:outer_end_structures",
@@ -795,7 +795,7 @@
 	},
 	{
 	  "structure": "remnant_bosses:ancient_ruins",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:ancient_cities_end",
@@ -823,7 +823,7 @@
 	},
 	{
 	  "structure": "repurposed_structures:fortresses_overworld",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:igloos_overworld",
@@ -855,23 +855,23 @@
 	},
 	{
 	  "structure": "repurposed_structures:monuments_nether",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:monuments_overworld",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:outposts_end",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:outposts_nether",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:outposts_overworld",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:pyramids_end",
@@ -911,19 +911,19 @@
 	},
 	{
 	  "structure": "repurposed_structures:strongholds_end",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:strongholds_nether",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:temples_nether",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:temples_overworld",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "repurposed_structures:villages_mushroom",
@@ -939,7 +939,7 @@
 	},
 	{
 	  "structure": "repurposed_structures:witch_huts_overworld",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "structory:mid_rare_ruin",
@@ -963,23 +963,23 @@
 	},
 	{
 	  "structure": "structory_towers:end_towers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "structory_towers:nether_towers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "structory_towers:rare_towers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "structory_towers:towers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "structory_towers:ultra_rare_towers",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "supplementaries:way_signs",
@@ -991,7 +991,7 @@
 	},
 	{
 	  "structure": "terralith:rare_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "terralith:rare_village",
@@ -1011,7 +1011,7 @@
 	},
 	{
 	  "structure": "terralith:underground_dungeon",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "tlc:structure_lost_castle_set",
@@ -1023,7 +1023,7 @@
 	},
 	{
 	  "structure": "twilightforest:dark_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:final_castle",
@@ -1031,19 +1031,19 @@
 	},
 	{
 	  "structure": "twilightforest:hedge_maze",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:hydra_lair",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:knight_stronghold",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:labyrinth",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:large_hollow_hill",
@@ -1051,7 +1051,7 @@
 	},
 	{
 	  "structure": "twilightforest:lich_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:medium_hollow_hill",
@@ -1059,11 +1059,11 @@
 	},
 	{
 	  "structure": "twilightforest:mushroom_tower",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:naga_courtyard",
-	  "factor": 1
+	  "factor": 2
 	},
 	{
 	  "structure": "twilightforest:quest_grove",
@@ -1071,4 +1071,39 @@
 	},
 	{
 	  "structure": "twilightforest:small_hollow_hill",
-	  "factor": 
+	  "factor": 1
+	},
+	{
+	  "structure": "twilightforest:troll_cave",
+	  "factor": 2
+	},
+	{
+	  "structure": "twilightforest:yeti_cave",
+	  "factor": 2
+	},
+	{
+	  "structure": "undergarden:catacombs",
+	  "factor": 2
+	},
+	{
+	  "structure": "undergarden:forgotten_vestige",
+	  "factor": 2
+	}
+
+    // add the structures you want to modify in the format:
+    // (don't forget to remove "//", and use dots for decimal numbers)
+    //
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    //
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example: "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip: you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip: the same spread factors rules apply here (set to 0 to disable said structure)
+  ]
+}

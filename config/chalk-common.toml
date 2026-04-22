@@ -11,7 +11,7 @@ ChalkBoxGlowingEnabled = true
 #How many glowing uses one glowing item will give.
 #Default: 8
 #Range: 1 ~ 9999
-ChalkBoxGlowingItemUses = 8
+ChalkBoxGlowingItemUses = 64
 #If enabled, Chalks (and Chalk Boxes) will generate in Dungeons, Abandoned Mineshafts, Planes and Savanna villages, Cartographer houses
 #Default: true
 ShouldGenerateInChests = true
@@ -21,13 +21,13 @@ ShouldGenerateInChests = true
 	PickaxeEnabled = true
 	PickaxeUnlockAdvancement = "minecraft:story/iron_tools"
 	SkullEnabled = true
-	SkullUnlockAdvancement = "chalk:adventure/get_skeleton_skull"
+	SkullUnlockAdvancement = "chalk:adventure/get_skeleton_sku"
 	HouseEnabled = true
-	HouseUnlockAdvancement = "chalk:adventure/sleep_three_times_in_one_place"
+	HouseUnlockAdvancement = "chalk:adventure/sleep_three_time"
 	CheckEnabled = true
 	CheckUnlockAdvancement = ""
 	HeartEnabled = true
-	HeartUnlockAdvancement = "minecraft:husbandry/tame_an_animal"
+	HeartUnlockAdvancement = "minecraft:husbandry/tame_an_anim"
 	CrossEnabled = true
 	CrossUnlockAdvancement = ""
 

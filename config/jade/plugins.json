@@ -112,6 +112,10 @@
     "hud": true,
     "hud.redstone": true
   },
+  "item-descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
   "create_cultivation": {
     "cultivation_tank": true
   },

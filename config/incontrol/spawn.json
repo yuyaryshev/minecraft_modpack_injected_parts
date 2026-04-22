@@ -25,14 +25,15 @@
   },
   {
     "mob": ["minecraft:zombie", "minecraft:skeleton"],
-    "dimension": 0,
+    "dimension": "minecraft:overworld",
     "result": "allow",
-    "maxhostile": 150,
+    "maxcount": {
+      "amount": 150,
+      "hostile": true
+    },
     "mintime": 13000,
     "maxtime": 23000,
-    "onjoin": true,
-    "groupcountmin": 4,
-    "groupcountmax": 8,
+    "when": "onjoin",
     "healthmultiply": 0.7,
     "damagemultiply": 0.7,
     "speedmultiply": 0.7,
@@ -60,18 +61,20 @@
       {"item": "minecraft:stone_pickaxe", "chance": 0.15},
       {"item": "minecraft:wooden_pickaxe", "chance": 0.15}
     ],
-    "randomenchanted": false,
     "seesky": true
   },
   {
     "mob": "minecraft:skeleton",
     "result": "allow",
-    "dimension": 0,
-    "maxhostile": 150,
+    "dimension": "minecraft:overworld",
+    "maxcount": {
+      "amount": 150,
+      "hostile": true
+    },
+    "when": "onjoin",
     "helditem": {
       "item": "minecraft:stone_sword",
       "chance": 1.0
-    },
-    "randomenchanted": false
+    }
   }
 ]

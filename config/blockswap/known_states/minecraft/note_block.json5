@@ -10351,5 +10351,1355 @@ to make editing this file much easier.
 			"instrument": "custom_head"
 		},
 		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "0",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "0",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "1",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "1",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "2",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "2",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "3",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "3",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "4",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "4",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "5",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "5",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "6",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "6",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "7",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "7",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "8",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "8",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "9",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "9",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "10",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "10",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "11",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "11",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "12",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "12",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "13",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "13",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "14",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "14",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "15",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "15",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "16",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "16",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "17",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "17",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "18",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "18",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "19",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "19",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "20",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "20",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "21",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "21",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "22",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "22",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "23",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "23",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "24",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "24",
+			"instrument": "kobolediator"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "0",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "0",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "1",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "1",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "2",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "2",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "3",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "3",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "4",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "4",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "5",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "5",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "6",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "6",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "7",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "7",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "8",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "8",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "9",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "9",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "10",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "10",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "11",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "11",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "12",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "12",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "13",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "13",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "14",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "14",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "15",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "15",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "16",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "16",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "17",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "17",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "18",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "18",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "19",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "19",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "20",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "20",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "21",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "21",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "22",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "22",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "23",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "23",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "24",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "24",
+			"instrument": "aptrgangr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "0",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "0",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "1",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "1",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "2",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "2",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "3",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "3",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "4",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "4",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "5",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "5",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "6",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "6",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "7",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "7",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "8",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "8",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "9",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "9",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "10",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "10",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "11",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "11",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "12",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "12",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "13",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "13",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "14",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "14",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "15",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "15",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "16",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "16",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "17",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "17",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "18",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "18",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "19",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "19",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "20",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "20",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "21",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "21",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "22",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "22",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "23",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "23",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"note": "24",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"note": "24",
+			"instrument": "draugr"
+		},
+		"Name": "minecraft:note_block"
 	}
 ]

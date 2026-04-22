@@ -17,11 +17,11 @@
 	#
 	# Determines if Halloween cosmetic effects should happen.
 	# Default: true
-	allow_halloween_content = true
+	allow_halloween_content = false
 	#
 	# Determines if Christmas cosmetic effects should happen.
 	# Default: true
-	allow_christmas_content = true
+	allow_christmas_content = false
 
 [Gatekeeper]
 	#

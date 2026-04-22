@@ -143,8 +143,9 @@ ServerEvents.recipes(event => {
     event.recipes.create.compacting('yyitems:andesite_machinery_unipack', [
         'create:andesite_alloy_block',
         'create:gearbox',
-        'create:andesite_casing',
+//        'create:andesite_casing',
         'minecraft:dried_kelp_block'
+//        'minecraft:dried_kelp'
     ]);
 
     event.recipes.create.compacting('yyitems:copper_machinery_unipack', [

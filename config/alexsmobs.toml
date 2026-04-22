@@ -78,9 +78,9 @@
 	#Range: 0.0 ~ 1.0
 	leafcutterAntBreakLeavesChance = 0.2
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
-	falconryTeleportsBack = false
+	falconryTeleportsBack = true
 	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
-	fireproofTarantulaHawk = false
+	fireproofTarantulaHawk = true
 	#List of dimensions in which spawning void worms via mysterious worm items is allowed.
 	voidWormSpawnDimensions = ["minecraft:the_end"]
 	#All void worm damage is scaled to this.
