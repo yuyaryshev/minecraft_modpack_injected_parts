@@ -705,6 +705,7 @@ function moldsFix(event) {
 }
 
 ServerEvents.recipes(event => {	
+	andesiteAlloyFromPowder(event);
 	cheaperDrawers(event);
 	woodenToolsIn2x2(event);
 	wateringCanFix(event);
